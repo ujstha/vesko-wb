@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@theme {
+  --color-accent-50: oklch(97% 0.01 159.63);
+  --color-accent-100: oklch(92% 0.02 159.63);
+  --color-accent-200: oklch(85% 0.04 159.63);
+  --color-accent-300: oklch(74% 0.06 159.63);
+  --color-accent-400: oklch(60% 0.08 159.63);
+  --color-accent-500: oklch(50% 0.09 159.63);
+  --color-accent-600: oklch(40.97% 0.0924 159.63); /* #025938 */ /* vesko color */
+  --color-accent-700: oklch(32% 0.08 159.63);
+  --color-accent-800: oklch(25% 0.06 159.63);
+  --color-accent-900: oklch(18% 0.04 159.63);
+  --color-accent-950: oklch(12% 0.02 159.63);
+
+  --color-default-white: oklch(97.7% 0 0);
+  --color-default-black: oklch(26.03% 0 0);
+
+  --text-xxs: 0.65rem;
+
+  --container-container: 80rem;
+}
+
+@utility transition-smooth {
+  @apply transition-all duration-400 ease-in-out;
+}
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.25;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-default-black);
+  background-color: var(--color-default-white);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+* {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 #f1f1f1; /* For Firefox */
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  width: 2px; /* Width of the scrollbar */
+  height: 2px; /* Height of horizontal scrollbars */
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track,
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover,
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker color on hover */
+}
+
+.thumbnail > * {
+  height: 150px !important;
+  width: 100px !important;
+}

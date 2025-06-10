@@ -1,0 +1,25 @@
+{
+  "home": {
+    "title": "Welcome to Our Website"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "backToHome": "Back to Home"
+  },
+  "nav": {
+    "home": "Home",
+    "merchants": "For Merchants",
+    "about": "About Us",
+    "people": "For People",
+    "contact": "Contact Us",
+    "register": "Register",
+    "offline-vendors": "Offline Vendors",
+    "online-vendors": "Online Vendors"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again later.",
+    "success": "Operation completed successfully."
+  }
+}

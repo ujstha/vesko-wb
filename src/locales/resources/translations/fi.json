@@ -1,0 +1,25 @@
+{
+  "home": {
+    "title": "Tervetuloa verkkosivustollemme"
+  },
+  "notFound": {
+    "title": "Sivua ei löydy",
+    "description": "Anteeksi, emme löytäneet etsimääsi sivua.",
+    "backToHome": "Takaisin etusivulle"
+  },
+  "nav": {
+    "home": "Etusivu",
+    "merchants": "Kauppiaille",
+    "about": "Tietoa meistä",
+    "people": "Ihmisille",
+    "contact": "Ota yhteyttä",
+    "register": "Rekisteröidy",
+    "offline-vendors": "Offline-myyjät",
+    "online-vendors": "Verkkokauppiaat"
+  },
+  "common": {
+    "loading": "Ladataan...",
+    "error": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
+    "success": "Toiminto suoritettu onnistuneesti."
+  }
+}
