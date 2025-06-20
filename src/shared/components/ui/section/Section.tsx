@@ -10,7 +10,7 @@ const Section = forwardRef<HTMLDivElement, SectionProps>(({ className, ...props 
   return (
     <section
       ref={ref}
-      className={cn("relative w-full px-4 py-3 sm:px-6 sm:py-5 lg:px-8 lg:py-7", className)}
+      className={cn("relative w-full px-4 py-7 sm:px-6 sm:py-10 lg:px-8 lg:py-20", className)}
       {...props}
     />
   );

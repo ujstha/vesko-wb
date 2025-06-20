@@ -8,7 +8,7 @@ const EcommerceSolution = () => {
   return (
     <Section>
       <Container>
-        <Text variant='heading' className='mb-10 text-center' as='h2'>
+        <Text variant='heading' className='mb-10 text-center md:mb-16' as='h2'>
           Our E-commerce Solutions
         </Text>
         <div className='grid grid-cols-1 gap-8 md:grid-cols-2'>

@@ -1,4 +1,5 @@
 import Connected from "@/assets/images/connected.avif";
+import ForPeopleHero from "@/assets/images/for_people_hero.avif";
 import HeroDesktop from "@/assets/images/hero_desktop.png";
 import HeroMobile from "@/assets/images/hero_mobile.png";
 import Neutral from "@/assets/images/neutral.avif";
@@ -30,6 +31,7 @@ export const Assets = {
   omnistore: Omnistore,
   onlinestore: Onlinestore,
   unboxingVideo: UnboxingVideo,
+  forPeopleHero: ForPeopleHero,
 };
 
 export type AssetKey = keyof typeof Assets;

@@ -1,13 +1,15 @@
-import { useRef, useEffect } from "react";
 import gsap from "gsap";
-import { Container } from "./container";
-import { Text } from "./text";
+import { useRef, useEffect } from "react";
+
 import { Button } from "./button";
+import { Text } from "./text";
+
+import type { RemixIconName } from "@/shared/constants/icons";
 
 interface FeatureCardProps {
   title: string;
   description: string;
-  icon: React.ReactNode;
+  icon: RemixIconName;
   buttonText?: string;
   buttonLink?: string;
   className?: string;
@@ -71,8 +73,8 @@ export const FeatureCard = ({
         });
       };
 
-      cardRef.current.addEventListener("mouseenter", handleHover);
-      cardRef.current.addEventListener("mouseleave", handleLeave);
+      cardRef.current?.addEventListener("mouseenter", handleHover);
+      cardRef.current?.addEventListener("mouseleave", handleLeave);
 
       return () => {
         cardRef.current?.removeEventListener("mouseenter", handleHover);
@@ -85,33 +87,22 @@ export const FeatureCard = ({
 
   return (
     <div
-      ref={cardRef}
-      className={`group relative overflow-hidden rounded-xl bg-white/5 p-8 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 ${className}`}
+      className={`group relative overflow-hidden rounded-xl bg-white p-8 backdrop-blur-sm transition-all duration-300 ${className}`}
       role='article'
       aria-labelledby={`feature-title-${index}`}
     >
-      <div ref={contentRef} className='flex h-full flex-col items-start justify-between gap-6'>
+      <div className='flex h-full flex-col items-start justify-between gap-6'>
         <div className='space-y-4'>
-          <div className='mb-4'>{icon}</div>
-          <Text
-            as='h3'
-            variant='heading'
-            className='text-2xl font-semibold text-white'
-            id={`feature-title-${index}`}
-          >
+          {icon && <i className={`${icon} text-accent-600 text-5xl`} />}
+          <Text as='h3' variant='subheading' id={`feature-title-${index}`}>
             {title}
           </Text>
-          <Text className='text-lg text-gray-300'>{description}</Text>
+          <Text className='text-lg' color='secondary'>
+            {description}
+          </Text>
         </div>
         {buttonText && buttonLink && (
-          <Button
-            variant='secondary'
-            href={buttonLink}
-            className='group-hover:bg-accent-600'
-            aria-label={`Learn more about ${title}`}
-          >
-            {buttonText}
-          </Button>
+          <Button aria-label={`Learn more about ${title}`}>{buttonText}</Button>
         )}
       </div>
     </div>

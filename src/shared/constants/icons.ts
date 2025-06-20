@@ -6,6 +6,10 @@ export const RemixIcons = {
   home: "ri-home-4-line",
   user: "ri-user-3-line",
   settings: "ri-settings-3-line",
+  securePayment: "ri-secure-payment-line",
+  truck: "ri-truck-line",
+  email: "ri-mail-line",
+  userCommunity: "ri-user-community-line",
 
   // social icons
   instagram: "ri-instagram-line",

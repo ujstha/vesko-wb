@@ -30,6 +30,24 @@
   @apply flex items-center justify-center;
 }
 
+@utility clip-flourish {
+  clip-path: polygon(
+    0 10%,
+    15% 30%,
+    30% 25%,
+    50% 40%,
+    70% 35%,
+    85% 50%,
+    100% 40%,
+    100% 100%,
+    0% 100%
+  );
+}
+
+@utility clip-zigzag {
+  clip-path: polygon(0 0%, 25% 20%, 50% 10%, 75% 20%, 100% 0%, 100% 100%, 0% 100%);
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.25;
