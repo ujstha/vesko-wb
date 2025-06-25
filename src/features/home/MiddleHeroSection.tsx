@@ -1,11 +1,13 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 import { ImageSplitReveal } from "@/shared/components/ui/animated/ImageSplitReveal";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 
 const MiddleHeroSection = () => {
+  const { t } = useTranslation();
   const ref = useRef(null);
 
   // Scroll progress of the section
@@ -31,13 +33,13 @@ const MiddleHeroSection = () => {
               variant='heading'
               className='text-default-white absolute bottom-0 left-0 !text-4xl lg:!text-8xl xl:!text-[8rem]'
             >
-              Yes! Vesko is
+              {t("home.middleHero.line1")}
             </Text>
             <Text
               variant='heading'
               className='text-accent-400 absolute top-0 right-0 !text-4xl lg:!text-8xl xl:!text-[8rem]'
             >
-              a social media
+              {t("home.middleHero.line2")}
             </Text>
           </div>
         </div>

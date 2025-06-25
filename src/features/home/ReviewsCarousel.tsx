@@ -1,4 +1,5 @@
 import { useRef, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Container } from "@/shared/components/ui/container";
@@ -15,41 +16,15 @@ interface Review {
   avatar: string;
 }
 
-const reviews: Review[] = [
-  {
-    id: 1,
-    name: "John Doe",
-    role: "CEO",
-    company: "TechCorp",
-    content:
-      "Vesko has transformed how we handle our digital presence. The platform's innovative approach to connecting vendors and customers is truly revolutionary.",
-    avatar: "/avatars/john-doe.jpg",
-  },
-  {
-    id: 2,
-    name: "Jane Smith",
-    role: "CTO",
-    company: "InnovateTech",
-    content:
-      "The seamless integration of payment and logistics features has streamlined our entire operation. It's exactly what we needed.",
-    avatar: "/avatars/jane-smith.jpg",
-  },
-  {
-    id: 3,
-    name: "Mike Johnson",
-    role: "Operations Director",
-    company: "Global Logistics",
-    content:
-      "As a logistics provider, I'm impressed by how Vesko has simplified the complex process of order fulfillment.",
-    avatar: "/avatars/mike-johnson.jpg",
-  },
-];
-
 const ReviewsCarousel = () => {
+  const { t } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+
+  // Get reviews from translations
+  const reviews: Review[] = t("home.reviews.reviews", { returnObjects: true }) as Review[];
 
   useEffect(() => {
     if (!sectionRef.current || !carouselRef.current) return;
@@ -136,11 +111,9 @@ const ReviewsCarousel = () => {
             className='mb-4 text-4xl font-bold text-white'
             id='reviews-heading'
           >
-            Trusted By Industry Leaders
+            {t("home.reviews.heading")}
           </Text>
-          <Text className='text-xl text-gray-300'>
-            Read feedback and reviews from future customers and users who have tested Vesko
-          </Text>
+          <Text className='text-xl text-gray-300'>{t("home.reviews.subtitle")}</Text>
         </div>
 
         <div className='relative'>
@@ -176,7 +149,7 @@ const ReviewsCarousel = () => {
             <button
               onClick={() => navigate("prev")}
               className='focus:ring-accent-500 rounded-full bg-white/10 p-2 text-white backdrop-blur-sm transition-all hover:bg-white/20 focus:ring-2 focus:outline-none'
-              aria-label='Previous review'
+              aria-label={t("common.previous")}
               disabled={isAnimating}
             >
               <ChevronLeftIcon className='h-6 w-6' />
@@ -184,7 +157,7 @@ const ReviewsCarousel = () => {
             <button
               onClick={() => navigate("next")}
               className='focus:ring-accent-500 rounded-full bg-white/10 p-2 text-white backdrop-blur-sm transition-all hover:bg-white/20 focus:ring-2 focus:outline-none'
-              aria-label='Next review'
+              aria-label={t("common.next")}
               disabled={isAnimating}
             >
               <ChevronRightIcon className='h-6 w-6' />
@@ -199,7 +172,7 @@ const ReviewsCarousel = () => {
                 className={`h-2 w-2 rounded-full transition-all ${
                   index === currentIndex ? "bg-accent-500" : "bg-white/30"
                 }`}
-                aria-label={`Go to review ${index + 1}`}
+                aria-label={`${t("common.goToReview")} ${index + 1}`}
                 aria-current={index === currentIndex}
               />
             ))}

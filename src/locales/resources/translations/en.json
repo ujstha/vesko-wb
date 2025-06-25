@@ -1,6 +1,147 @@
 {
   "home": {
-    "title": "Welcome to Our Website"
+    "title": "Welcome to Our Website",
+    "hero": {
+      "mainHeading": "Where the digital world meets the real world"
+    },
+    "features": {
+      "description": "A platform that combines social media with e-commerce offering OmniStore ® that connects offline retailers with digitally driven offline customers."
+    },
+    "middleHero": {
+      "line1": "Yes! Vesko is",
+      "line2": "a social media"
+    },
+    "vesko": {
+      "safePlace": {
+        "title": "Safe Place",
+        "description": "To share your life with friends and family without being attacked for who you are."
+      },
+      "neutral": {
+        "title": "Neutral",
+        "description": "Like Switzerland, we take no sides and with zero tolerance for hate, bullying, & discrimination."
+      },
+      "connected": {
+        "title": "Connected",
+        "description": "Your feed doesn't just show people, It shows what your local stores sell, bringing your online life closer to your real world."
+      }
+    },
+    "socialize": {
+      "heading": "Socialise, Share your life, Shop, & Sell all in one place",
+      "blocks": {
+        "localLife": {
+          "title": "A space where your local life goes digital",
+          "description": "Follow nearby brands and stores, discover new products, and support your local businesses, all in one social feed."
+        },
+        "growBusiness": {
+          "title": "Grow your business, expand your reach",
+          "description": "Build a community around your brand, or start your entrepreneurial journey right here on Vesko."
+        }
+      }
+    },
+    "ecommerce": {
+      "heading": "Our E-commerce Solutions",
+      "omnistore": {
+        "title": "OmniStore ®",
+        "subtitle": "For brick-and-mortar retailers",
+        "description": "Transform your physical store into a virtual showroom. Sell from the same inventory both online and offline, and connect with digitally-driven walk-in customers."
+      },
+      "onlineStore": {
+        "title": "Online Store",
+        "subtitle": "For Online vendors",
+        "description": "For digital-first vendors. Build your brand, grow a loyal customer base, and connect directly with your audience, all within a supportive, social commerce platform."
+      }
+    },
+    "featuresGrid": {
+      "heading": "Powerful Features",
+      "subtitle": "Discover how our platform revolutionizes the way you do business",
+      "payment": {
+        "title": "Payment",
+        "description": "Safe and secure checkout, powered by end-to-end encryption and trusted payment partners.",
+        "buttonText": "Read more"
+      },
+      "logistics": {
+        "title": "Logistics",
+        "description": "Fast and reliable delivery with pre-set logistics integrations making order fulfillment seamless for both vendors and customers.",
+        "buttonText": "Read more"
+      }
+    },
+    "unboxing": {
+      "heading": "See it yourself!",
+      "play": "Play",
+      "pause": "Pause",
+      "videoNotSupported": "Your browser does not support the video tag."
+    },
+    "reviews": {
+      "heading": "Trusted By Industry Leaders",
+      "subtitle": "Read feedback and reviews from future customers and users who have tested Vesko",
+      "reviews": [
+        {
+          "name": "John Doe",
+          "role": "CEO",
+          "company": "TechCorp",
+          "content": "Vesko has transformed how we handle our digital presence. The platform's innovative approach to connecting vendors and customers is truly revolutionary."
+        },
+        {
+          "name": "Jane Smith",
+          "role": "CTO",
+          "company": "InnovateTech",
+          "content": "The seamless integration of payment and logistics features has streamlined our entire operation. It's exactly what we needed."
+        },
+        {
+          "name": "Mike Johnson",
+          "role": "Operations Director",
+          "company": "Global Logistics",
+          "content": "As a logistics provider, I'm impressed by how Vesko has simplified the complex process of order fulfillment."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Step into the future",
+      "waitlist": {
+        "title": "Join our users waitlist",
+        "buttonText": "Join Waitlist",
+        "loadingText": "Joining...",
+        "successMessage": "Thank you for joining our waitlist!",
+        "successSubtitle": "We'll notify you as soon as we launch.",
+        "placeholder": "Enter your email",
+        "errorMessage": "Please enter a valid email address"
+      },
+      "merchant": {
+        "title": "Merchant? Register and get early bird package offer",
+        "buttonText": "Register as Merchant"
+      }
+    }
+  },
+  "forPeople": {
+    "whatIsVesko": {
+      "title": {
+        "line1": "What",
+        "line2": "is Vesko?"
+      },
+      "items": {
+        "item1": "It's a social media app with online stores where you can shop or even sell.",
+        "item2": "You can follow friends, people, stores, and brands.",
+        "item3": "A home feed where you'll see posts from people you follow and",
+        "item4": "Product posts from your favourite stores and brands that you can buy directly.",
+        "item5": "But Vesko is not just another social commerce app, it is"
+      }
+    },
+    "veskoIs": {
+      "firstSection": {
+        "top": {
+          "line1": "Different Kind of",
+          "line2": "Social Media"
+        },
+        "bottom": {
+          "line1": "Where you will",
+          "line2": "feel free"
+        }
+      },
+      "secondSection": {
+        "mainText": "Looks familiar by design",
+        "subText": "But it's not the same toxic space you're used to"
+      }
+    }
   },
   "notFound": {
     "title": "Page Not Found",
@@ -20,6 +161,9 @@
   "common": {
     "loading": "Loading...",
     "error": "An error occurred. Please try again later.",
-    "success": "Operation completed successfully."
+    "success": "Operation completed successfully.",
+    "previous": "Previous",
+    "next": "Next",
+    "goToReview": "Go to review"
   }
 }

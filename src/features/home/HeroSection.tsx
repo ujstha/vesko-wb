@@ -1,6 +1,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
+import { useTranslation } from "react-i18next";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
@@ -8,6 +9,7 @@ import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   const controls = useAnimation();
   const smallDeviceControls = useAnimation();
   const [animationState, setAnimationState] = useState<"initial" | "animated">("initial");
@@ -106,7 +108,7 @@ const HeroSection = () => {
             className='-mt-96 -ml-20 min-w-[500px] flex-1'
           >
             <Text className='text-default-white' as='h1' variant='heading' weight='normal'>
-              Where the digital world meets the real world
+              {t("home.hero.mainHeading")}
             </Text>
           </motion.div>
           <motion.img
@@ -134,7 +136,7 @@ const HeroSection = () => {
           variants={smallDeviceVariants}
         />
         <Text className='text-default-white text-center' as='h1' variant='heading' weight='normal'>
-          Where the digital world meets the real world
+          {t("home.hero.mainHeading")}
         </Text>
       </Section>
     </>

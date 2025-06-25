@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 import { StackScrollCards } from "@/shared/components/ui/animated/StackScrollCards";
 import { Container } from "@/shared/components/ui/container";
 import { Image } from "@/shared/components/ui/image";
@@ -5,31 +7,31 @@ import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
 
-const blocks = [
-  {
-    id: 1,
-    color: "bg-green-50",
-    title: "A space where your local life goes digital",
-    description:
-      "Follow nearby brands and stores, discover new products, and support your local businesses, all in one social feed.",
-    image: Assets.spaceDigital,
-  },
-  {
-    id: 2,
-    color: "bg-blue-50",
-    title: "Grow your business, expand your reach",
-    description:
-      "Build a community around your brand, or start your entrepreneurial journey right here on Vesko.",
-    image: Assets.spaceDigital,
-  },
-];
-
 const SocializeSection = () => {
+  const { t } = useTranslation();
+
+  const blocks = [
+    {
+      id: 1,
+      color: "bg-green-50",
+      title: t("home.socialize.blocks.localLife.title"),
+      description: t("home.socialize.blocks.localLife.description"),
+      image: Assets.spaceDigital,
+    },
+    {
+      id: 2,
+      color: "bg-blue-50",
+      title: t("home.socialize.blocks.growBusiness.title"),
+      description: t("home.socialize.blocks.growBusiness.description"),
+      image: Assets.spaceDigital,
+    },
+  ];
+
   return (
     <Section className='p-0'>
       <Container className='p-0'>
         <Text variant='subheading' as='h2' className='mb-6 text-center'>
-          Socialise, Share your life, Shop, & Sell all in one place
+          {t("home.socialize.heading")}
         </Text>
 
         <StackScrollCards

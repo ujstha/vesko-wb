@@ -1,6 +1,147 @@
 {
   "home": {
-    "title": "Tervetuloa verkkosivustollemme"
+    "title": "Tervetuloa verkkosivustollemme",
+    "hero": {
+      "mainHeading": "Missä digitaalinen maailma kohtaa todellisen maailman"
+    },
+    "features": {
+      "description": "Alusta, joka yhdistää sosiaalisen median ja verkkokaupan tarjoamalla OmniStore ® -palvelun, joka yhdistää offline-kauppiaat digitaalisesti ajatteleviin offline-asiakkaisiin."
+    },
+    "middleHero": {
+      "line1": "Kyllä! Vesko on",
+      "line2": "sosiaalinen media"
+    },
+    "vesko": {
+      "safePlace": {
+        "title": "Turvallinen paikka",
+        "description": "Jakaa elämääsi ystävien ja perheen kanssa ilman, että sinua hyökätään siitä, kuka olet."
+      },
+      "neutral": {
+        "title": "Neutraali",
+        "description": "Kuten Sveitsi, emme ota puolta ja nollatoleranssi vihaan, kiusaamiseen ja syrjintään."
+      },
+      "connected": {
+        "title": "Yhdistetty",
+        "description": "Syötteesi ei näytä vain ihmisiä, se näyttää mitä paikalliset kaupat myyvät, tuoden online-elämäsi lähemmäs todellista maailmaasi."
+      }
+    },
+    "socialize": {
+      "heading": "Sosialisoidu, jaa elämäsi, osta ja myy kaikki yhdessä paikassa",
+      "blocks": {
+        "localLife": {
+          "title": "Tila, jossa paikallinen elämäsi muuttuu digitaaliseksi",
+          "description": "Seuraa lähikaupan brändejä ja kauppoja, löydä uusia tuotteita ja tue paikallisia yrityksiäsi kaikki yhdessä sosiaalisessa syötteessä."
+        },
+        "growBusiness": {
+          "title": "Kasvata yritystäsi, laajenna saavutettavuuttasi",
+          "description": "Rakenna yhteisö brändisi ympärille tai aloita yrittäjämatkasi täällä Veskossa."
+        }
+      }
+    },
+    "ecommerce": {
+      "heading": "Verkkokaupparatkaisumme",
+      "omnistore": {
+        "title": "OmniStore ®",
+        "subtitle": "Perinteisille kauppiaille",
+        "description": "Muunna fyysinen kauppasi virtuaaliseksi näyttelytilaksi. Myy samasta varastosta sekä verkossa että offline-tilassa ja yhdisty digitaalisesti ajatteleviin kävijäasiakkaisiin."
+      },
+      "onlineStore": {
+        "title": "Verkkokauppa",
+        "subtitle": "Verkkokauppiaille",
+        "description": "Digitaalisille ensisijaisille myyjille. Rakenna brändisi, kasvata uskollista asiakaskuntaa ja yhdisty suoraan yleisöösi kaikki yhdessä tukevassa sosiaalisessa kaupankäyntialustassa."
+      }
+    },
+    "featuresGrid": {
+      "heading": "Voimakkaat ominaisuudet",
+      "subtitle": "Opi, miten alustamme mullistaa tavan tehdä liiketoimintaa",
+      "payment": {
+        "title": "Maksut",
+        "description": "Turvallinen ja varma kassaprosessi, jota tukee päästä päähän salaus ja luotetut maksukumppanit.",
+        "buttonText": "Lue lisää"
+      },
+      "logistics": {
+        "title": "Logistiikka",
+        "description": "Nopea ja luotettava toimitus ennalta määritellyillä logistiikkaintegraatioilla, jotka tekevät tilauksen täytöstä saumattomaksi sekä myyjille että asiakkaille.",
+        "buttonText": "Lue lisää"
+      }
+    },
+    "unboxing": {
+      "heading": "Katso itse!",
+      "play": "Toista",
+      "pause": "Tauko",
+      "videoNotSupported": "Selaimesi ei tue videotunnistetta."
+    },
+    "reviews": {
+      "heading": "Alan johtajien luottama",
+      "subtitle": "Lue palautetta ja arvosteluja tulevilta asiakkailta ja käyttäjiltä, jotka ovat testanneet Veskota",
+      "reviews": [
+        {
+          "name": "John Doe",
+          "role": "Toimitusjohtaja",
+          "company": "TechCorp",
+          "content": "Vesko on muuttanut tapamme käsitellä digitaalista läsnäoloa. Alustan innovatiivinen lähestymistapa myyjien ja asiakkaiden yhdistämiseen on todella vallankumouksellinen."
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Teknologiajohtaja",
+          "company": "InnovateTech",
+          "content": "Maksu- ja logistiikkaominaisuuksien saumaton integraatio on virtaviivaistanut koko toimintamme. Se on täsmälleen mitä tarvitsimme."
+        },
+        {
+          "name": "Mike Johnson",
+          "role": "Toimintajohtaja",
+          "company": "Global Logistics",
+          "content": "Logistiikkapalveluntarjoajana olen vaikuttunut siitä, miten Vesko on yksinkertaistanut monimutkaisen tilauksen täyttöprosessin."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Astu tulevaisuuteen",
+      "waitlist": {
+        "title": "Liity käyttäjien odotuslistalle",
+        "buttonText": "Liity odotuslistalle",
+        "loadingText": "Liitytään...",
+        "successMessage": "Kiitos, että liityit odotuslistallemme!",
+        "successSubtitle": "Ilmoitamme sinulle heti kun lanssaamme.",
+        "placeholder": "Syötä sähköpostiosoitteesi",
+        "errorMessage": "Syötä kelvollinen sähköpostiosoite"
+      },
+      "merchant": {
+        "title": "Kauppias? Rekisteröidy ja saa early bird -paketti",
+        "buttonText": "Rekisteröidy kauppiaaksi"
+      }
+    }
+  },
+  "forPeople": {
+    "whatIsVesko": {
+      "title": {
+        "line1": "Mikä",
+        "line2": "on Vesko?"
+      },
+      "items": {
+        "item1": "Se on sosiaalisen median sovellus verkkokauppojen kanssa, jossa voit ostaa tai jopa myydä.",
+        "item2": "Voit seurata ystäviä, ihmisiä, kauppoja ja brändejä.",
+        "item3": "Kotisivu, jossa näet julkaisut seuraamiltasi ihmisiltä ja",
+        "item4": "Tuotejulkaisut suosikkikauppojasi ja brändejäsi, joita voit ostaa suoraan.",
+        "item5": "Mutta Vesko ei ole vain toinen sosiaalinen kaupankäyntisovellus, se on"
+      }
+    },
+    "veskoIs": {
+      "firstSection": {
+        "top": {
+          "line1": "Erilainen",
+          "line2": "Sosiaalinen Media"
+        },
+        "bottom": {
+          "line1": "Missä sinä",
+          "line2": "tunnet olosi vapaaksi"
+        }
+      },
+      "secondSection": {
+        "mainText": "Näyttää tutulta suunnittelultaan",
+        "subText": "Mutta se ei ole sama myrkyllinen tila, johon olet tottunut"
+      }
+    }
   },
   "notFound": {
     "title": "Sivua ei löydy",
@@ -9,10 +150,10 @@
   },
   "nav": {
     "home": "Etusivu",
-    "merchants": "Kauppiaille",
-    "about": "Tietoa meistä",
-    "people": "Ihmisille",
-    "contact": "Ota yhteyttä",
+    "merchants": "Kauppias",
+    "about": "Tietoa",
+    "people": "Ihmiset",
+    "contact": "Yhteys",
     "register": "Rekisteröidy",
     "offline-vendors": "Offline-myyjät",
     "online-vendors": "Verkkokauppiaat"
@@ -20,6 +161,9 @@
   "common": {
     "loading": "Ladataan...",
     "error": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
-    "success": "Toiminto suoritettu onnistuneesti."
+    "success": "Toiminto suoritettu onnistuneesti.",
+    "previous": "Edellinen",
+    "next": "Seuraava",
+    "goToReview": "Siirry arvosteluun"
   }
 }

@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
@@ -7,6 +8,7 @@ import { useGSAP, scaleIn } from "@/shared/hooks/useGSAP";
 import gsap from "gsap";
 
 const UnboxingVideo = () => {
+  const { t } = useTranslation();
   const sectionRef = useGSAP<HTMLDivElement>();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -57,7 +59,7 @@ const UnboxingVideo = () => {
           aria-label='Product unboxing demonstration'
         >
           <source src='/videos/unboxing.mp4' type='video/mp4' />
-          Your browser does not support the video tag.
+          {t("home.unboxing.videoNotSupported")}
         </video>
       </div>
 
@@ -69,22 +71,22 @@ const UnboxingVideo = () => {
             className='mb-8 text-4xl font-bold text-white md:text-6xl'
             id='unboxing-heading'
           >
-            See it yourself!
+            {t("home.unboxing.heading")}
           </Text>
           <button
             onClick={togglePlay}
             className='group focus:ring-accent-500 flex items-center justify-center gap-2 rounded-full bg-white/10 px-6 py-3 text-white backdrop-blur-sm transition-all hover:bg-white/20 focus:ring-2 focus:outline-none'
-            aria-label={isPlaying ? "Pause video" : "Play video"}
+            aria-label={isPlaying ? t("home.unboxing.pause") : t("home.unboxing.play")}
           >
             {isPlaying ? (
               <>
                 <PauseIcon className='h-6 w-6' />
-                <span>Pause</span>
+                <span>{t("home.unboxing.pause")}</span>
               </>
             ) : (
               <>
                 <PlayIcon className='h-6 w-6' />
-                <span>Play</span>
+                <span>{t("home.unboxing.play")}</span>
               </>
             )}
           </button>

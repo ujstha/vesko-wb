@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Container } from "@/shared/components/ui/container";
 import { Image } from "@/shared/components/ui/image";
 import { Section } from "@/shared/components/ui/section";
@@ -5,6 +6,8 @@ import { Text } from "@/shared/components/ui/text";
 import { Assets } from "@/shared/constants/assets";
 
 const VeskoSection = () => {
+  const { t } = useTranslation();
+
   return (
     <Section>
       <Container>
@@ -16,10 +19,8 @@ const VeskoSection = () => {
               className='mb-6 h-[30rem] rounded-md object-contain md:h-[20rem] lg:h-[30rem]'
               alt='Vesko safe place'
             />
-            <Text variant='title'>Safe Place</Text>
-            <Text>
-              To share your life with friends and family without being attacked for who you are.
-            </Text>
+            <Text variant='title'>{t("home.vesko.safePlace.title")}</Text>
+            <Text>{t("home.vesko.safePlace.description")}</Text>
           </div>
           <div>
             <Image
@@ -27,11 +28,8 @@ const VeskoSection = () => {
               className='mb-6 h-[30rem] rounded-md object-contain md:h-[22rem] lg:h-[32rem]'
               alt='Vesko safe place'
             />
-            <Text variant='title'>Neutral</Text>
-            <Text>
-              Like Switzerland, we take no sides and with zero tolerance for hate, bullying, &
-              discrimination.
-            </Text>
+            <Text variant='title'>{t("home.vesko.neutral.title")}</Text>
+            <Text>{t("home.vesko.neutral.description")}</Text>
           </div>
           <div>
             <Image
@@ -39,11 +37,8 @@ const VeskoSection = () => {
               className='mb-6 h-[30rem] rounded-md object-contain md:h-[20rem] lg:h-[30rem]'
               alt='Vesko safe place'
             />
-            <Text variant='title'>Connected</Text>
-            <Text>
-              Your feed doesn’t just show people, It shows what your local stores sell, bringing
-              your online life closer to your real world.
-            </Text>
+            <Text variant='title'>{t("home.vesko.connected.title")}</Text>
+            <Text>{t("home.vesko.connected.description")}</Text>
           </div>
         </div>
       </Container>

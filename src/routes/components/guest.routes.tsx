@@ -4,10 +4,11 @@ import type { RouteObject } from "react-router-dom";
 import { RootRedirect } from "./RootRedirect";
 
 import { SUPPORTED_LANGUAGES } from "@/locales/i18n.config";
-import ForPeoplePage from "@/pages/ForPeoplePage";
 import { ROUTE_PATHS } from "@/routes/constants/route-paths";
 
 const HomePage = lazy(() => import("@/pages/HomePage"));
+const AboutPage = lazy(() => import("@/pages/AboutPage"));
+const ForPeoplePage = lazy(() => import("@/pages/ForPeoplePage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
@@ -20,6 +21,10 @@ export const GuestRoutes = (): RouteObject[] => {
           {
             index: true,
             element: <HomePage />,
+          },
+          {
+            path: ROUTE_PATHS.about[lang],
+            element: <AboutPage />,
           },
           {
             path: ROUTE_PATHS.contact[lang],

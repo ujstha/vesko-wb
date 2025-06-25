@@ -10,6 +10,7 @@ export const RemixIcons = {
   truck: "ri-truck-line",
   email: "ri-mail-line",
   userCommunity: "ri-user-community-line",
+  check: "ri-check-line",
 
   // social icons
   instagram: "ri-instagram-line",

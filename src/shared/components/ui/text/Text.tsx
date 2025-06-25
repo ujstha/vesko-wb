@@ -6,7 +6,7 @@ import { cn } from "@/shared/utils/cn";
 const textVariants = cva("transition-smooth !leading-", {
   variants: {
     variant: {
-      heading: "text-4xl lg:text-6xl font-bold",
+      heading: "text-4xl lg:text-5xl font-bold",
       subheading: "text-2xl md:text-3xl lg:text-3xl font-semibold",
       title: "text-lg md:text-xl lg:text-2xl font-semibold",
       subtitle: "text-base font-semibold",
