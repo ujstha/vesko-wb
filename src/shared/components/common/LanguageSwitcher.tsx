@@ -16,7 +16,7 @@ export const LanguageSwitcher = () => {
   const navigate = useNavigate();
 
   const currentPath = location.pathname;
-  const [, currentLang, ...rest] = currentPath.split("/");
+  const [, ...rest] = currentPath.split("/");
   const currentSlug = rest.join("/");
 
   const handleChangeLanguage = (targetLang: SupportedLanguages) => {

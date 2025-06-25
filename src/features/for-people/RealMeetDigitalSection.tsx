@@ -1,11 +1,11 @@
-import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { Assets } from "@/shared/constants/assets";
+
 import { Container } from "@/shared/components/ui/container";
-import { Text } from "@/shared/components/ui/text";
 import { Image } from "@/shared/components/ui/image";
-import { cn } from "@/shared/utils/cn";
 import { Section } from "@/shared/components/ui/section";
+import { Text } from "@/shared/components/ui/text";
+import { Assets } from "@/shared/constants/assets";
+import { cn } from "@/shared/utils/cn";
 
 const TRMD_IMAGES = [
   Assets.tRmd1,
