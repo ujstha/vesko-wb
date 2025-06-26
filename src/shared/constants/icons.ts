@@ -11,6 +11,8 @@ export const RemixIcons = {
   email: "ri-mail-line",
   userCommunity: "ri-user-community-line",
   check: "ri-check-line",
+  play: "ri-play-line",
+  pause: "ri-pause-line",
 
   // social icons
   instagram: "ri-instagram-line",
