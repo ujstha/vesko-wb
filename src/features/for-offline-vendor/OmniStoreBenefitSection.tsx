@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import { Button } from "@/shared/components/ui/button";
+import { NavItem } from "@/shared/components/common/NavItem";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
-import { NavItem } from "@/shared/components/common/NavItem";
 
 const OmniStoreBenefitSection = () => {
   const { t } = useTranslation();

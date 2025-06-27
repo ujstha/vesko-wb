@@ -235,7 +235,7 @@ const FeaturesSection = () => {
                     {(t(feature.highlightsKey, { returnObjects: true }) as string[]).map(
                       (highlight: string, highlightIndex: number) => (
                         <motion.div
-                          key={highlight}
+                          key={highlightIndex}
                           className='group flex items-center gap-3'
                           variants={bulletVariants}
                           whileHover={{ x: 5 }}
