@@ -10,11 +10,11 @@ const WhatIsVeskoSection: React.FC = () => {
   const { t } = useTranslation();
 
   const items = [
-    t("forPeople.whatIsVesko.items.item1"),
-    t("forPeople.whatIsVesko.items.item2"),
-    t("forPeople.whatIsVesko.items.item3"),
-    t("forPeople.whatIsVesko.items.item4"),
-    t("forPeople.whatIsVesko.items.item5"),
+    "forPeople.whatIsVesko.items.item1",
+    "forPeople.whatIsVesko.items.item2",
+    "forPeople.whatIsVesko.items.item3",
+    "forPeople.whatIsVesko.items.item4",
+    "forPeople.whatIsVesko.items.item5",
   ];
 
   const itemVariants = {
@@ -95,7 +95,7 @@ const WhatIsVeskoSection: React.FC = () => {
                       delay: idx * 0.2 + 0.4,
                     }}
                   >
-                    {text}
+                    {t(text)}
                   </motion.span>
                 </motion.div>
               ))}

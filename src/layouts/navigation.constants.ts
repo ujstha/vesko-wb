@@ -14,9 +14,9 @@ export const MAIN_NAVIGATION: NavigationItem[] = [
       {
         id: "offline-vendors",
         label: "nav.offline-vendors",
-        routeKey: "offline-vendors",
+        routeKey: "offlineVendors",
       },
-      { id: "online-vendors", label: "nav.online-vendors", routeKey: "online-vendors" },
+      { id: "online-vendors", label: "nav.online-vendors", routeKey: "onlineVendors" },
     ],
   },
   {

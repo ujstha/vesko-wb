@@ -113,6 +113,24 @@
     }
   },
   "forPeople": {
+    "hero": {
+      "title": "People Connected",
+      "subtitle": "Discover how Vesko connects you with local businesses and communities",
+      "description": "Connect with your local community, discover amazing products, and build meaningful relationships in a safe digital space.",
+      "formTitle": "Be among the first to experience Vesko",
+      "socialProof": "Join 2,847+ people already waiting",
+      "trustIndicators": {
+        "free": "Free to join",
+        "earlyAccess": "Early access",
+        "noSpam": "No spam"
+      },
+      "urgencyMessage": "🚀 Launching soon - Get priority access",
+      "waitlist": {
+        "button": "Join the waitlist",
+        "placeholder": "example@email.com",
+        "success": "You're on the list! We'll notify you when we launch."
+      }
+    },
     "whatIsVesko": {
       "title": {
         "line1": "What",
@@ -141,6 +159,133 @@
         "mainText": "Looks familiar by design",
         "subText": "But it's not the same toxic space you're used to"
       }
+    },
+    "realMeetDigital": {
+      "title": "Real Meets Digital",
+      "description": "Experience the seamless connection between physical and digital worlds"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Vesko",
+      "subtitle": "Read why we're building Vesko, and get to know something about us",
+      "tagline": "Discover our story, values, and mission to create a better digital world"
+    },
+    "whatIsVesko": {
+      "title": "What is Vesko",
+      "description": "Vesko is more than just another social media platform with online stores, it connects people with their local brick-and-mortar shops by turning them into virtual showrooms. This means shoppers can interact with physical stores digitally: browse what's in stock, check availability, and plan their visit, all before stepping outside. Vesko brings the real world to you digitally, making offline shopping smarter and more convenient. It's the first social commerce platform that connects people with the real world, digitally."
+    },
+    "why": {
+      "title": "Connecting & Empowering People",
+      "mission": "Our Mission is to create a safe social digital space that connects people while empowering small retail businesses.",
+      "problem": {
+        "title": "The Problem",
+        "description": "We believed technology was supposed to create solutions, not more problems and to connect us, not divide us. But today, platforms feel noisy, divisive, and draining."
+      },
+      "solution": {
+        "title": "Our Solution",
+        "description": "That's why we're building Vesko, to reconnect people, not just digitally, but locally and to bring communities closer.",
+        "additional": "A space where you can be yourself, without fear of judgment for who you are, what you believe, or whom you love."
+      }
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "subtitle": "We want to create a safe social digital environment while empowering small businesses",
+      "omnistore": {
+        "title": "Our Technology: OmniStore",
+        "description": "We've developed a new technology called OmniStore, an affordable, easy-to-use solution that helps offline retailers sell online and attract customers by allowing people to browse real-time product availability and in-store offerings."
+      },
+      "timeline": {
+        "beginning": {
+          "title": "The Beginning",
+          "location": "Joensuu, Finland",
+          "content": "Vesko's story began in 2019 in Joensuu, a small city in eastern Finland, where founder Leo Fadi noticed how local retail shops were shutting down year after year."
+        },
+        "realization": {
+          "title": "Understanding the Impact",
+          "location": "The Realization",
+          "content": "As an entrepreneur himself, he understood that behind every small business is a family or a young entrepreneur so when a store shuts down, it's not just empty windows; he saw families losing their source income, and young entrepreneurs watching their dreams fall apart."
+        },
+        "problem": {
+          "title": "Digital Divide",
+          "location": "The Problem",
+          "content": "As digital shopping behaviors grew, it became clear that small businesses weren't dying because people stopped shopping offline, they were struggling because they didn't have access to the same digital tools as big retailers."
+        },
+        "solution": {
+          "title": "Vesko is Born",
+          "location": "The Solution",
+          "content": "Vesko was created to fix that, first, by offering small stores an affordable way to meet modern shoppers' expectations for digital discovery and product availability."
+        },
+        "vision": {
+          "title": "Beyond Commerce",
+          "location": "The Vision",
+          "content": "And second, by rethinking social media itself. Mainstream platforms have become more toxic than helpful, pushing empty content over meaningful connection."
+        },
+        "mission": {
+          "title": "Purpose-Driven Platform",
+          "location": "The Mission",
+          "content": "So Vesko was also built as a social space with a purpose: to reconnect people to each other and to the local businesses that keep communities alive. At its heart, Vesko is a response to both a market need and a human one."
+        }
+      },
+      "quote": {
+        "text": "At its heart, Vesko is a response to both a market need and a human one.",
+        "author": "Leo Fadi, Founder"
+      }
+    },
+    "ourValues": {
+      "title": "What We Value",
+      "empathy": {
+        "title": "Empathy",
+        "description": "We listen, we care, and we design with people in mind, creating a space where everyone feels seen and respected."
+      },
+      "peace": {
+        "title": "Peace",
+        "description": "We foster a calm, fair, and supportive environment, both digitally and in the real world."
+      },
+      "friendliness": {
+        "title": "Friendliness",
+        "description": "We believe social platforms should feel like neighborhoods, welcoming, kind, and open to real connection."
+      },
+      "neutrality": {
+        "title": "Neutrality",
+        "description": "We keep things simple, authentic, and grounded in everyday life. As a platform, we don't take sides, only a stand for peace, fairness, and mutual respect."
+      },
+      "conclusion": "These values guide everything we do, from product design to community building, ensuring Vesko remains a platform that truly serves people and communities."
+    },
+    "unSDGs": {
+      "title": "UN Sustainable Development Goals",
+      "introduction": "Vesko is being built with sustainability at its core. Once launched, it will drive impact on multiple levels from empowering local economies to reducing environmental strain. By supporting small retailers with smart, affordable digital tools, Vesko directly contributes to several UN Sustainable Development Goals (SDGs). It's not just about transforming how people shop, it's about building a fairer, greener, and more resilient future for everyone. Here's how Vesko aligns with key SDGs:",
+      "goals": {
+        "sdg8": {
+          "title": "Decent Work & Economic Growth",
+          "description": "By digitalising small retailers, Vesko fosters economic inclusion, boosts local commerce, and creates jobs."
+        },
+        "sdg9": {
+          "title": "Industry, Innovation & Infrastructure",
+          "description": "Providing SMEs with scalable omnichannel solutions enhances digital infrastructure and innovation in retail."
+        },
+        "sdg10": {
+          "title": "Reduced Inequalities",
+          "description": "By providing affordable tech to small businesses, Vesko helps bridge the gap and creates more equal opportunities."
+        },
+        "sdg11": {
+          "title": "Sustainable Cities & Communities",
+          "description": "Strengthening local businesses reduces reliance on imports, fostering self-sufficient and resilient urban economies."
+        },
+        "sdg12": {
+          "title": "Responsible Consumption & Production",
+          "description": "Demand forecasting and reducing reliance on large warehouses help cut retail waste and improve resource efficiency."
+        },
+        "sdg13": {
+          "title": "Climate Action",
+          "description": "By localising trade and reducing long-distance shipping, Vesko minimises carbon emissions from logistics."
+        },
+        "sdg17": {
+          "title": "Partnerships for the Goals",
+          "description": "Collaborating with retailers, tech providers, and policymakers supports sustainable economic growth and digital transformation."
+        }
+      },
+      "conclusion": "Together, these SDGs represent our commitment to building a sustainable, inclusive, and prosperous future for all."
     }
   },
   "notFound": {

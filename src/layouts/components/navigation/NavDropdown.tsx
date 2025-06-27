@@ -1,62 +1,7 @@
-// import { useState } from "react";
-
-// import { NavItem } from "./NavItem";
-
-// import type { NavigationItem } from "@/layouts/navigation.types";
-
-// interface NavDropdownProps {
-//   item: NavigationItem;
-//   isMobile?: boolean;
-// }
-
-// const NavDropdown: React.FC<NavDropdownProps> = ({ item, isMobile = false }) => {
-//   const [isOpen, setIsOpen] = useState(false);
-
-//   const toggleMobileMenu = () => {
-//     if (isMobile) {
-//       setIsOpen((prev) => !prev);
-//     }
-//   };
-
-//   return (
-//     <div className={`w-full ${isMobile ? "group" : "group"}`}>
-//       <div
-//         className={`flex w-full items-center justify-between ${isMobile ? "px-4 py-2" : ""}`}
-//         onClick={toggleMobileMenu}
-//       >
-//         <NavItem {...item} asDropdown className='w-full' />
-//       </div>
-
-//       <div
-//         className={`flex-col gap-1 overflow-hidden transition-all duration-300 ${
-//           isMobile
-//             ? isOpen
-//               ? "flex max-h-[500px] py-1"
-//               : "hidden max-h-0"
-//             : "absolute top-full left-0 z-50 hidden min-w-[160px] rounded-md bg-white p-2 text-black shadow-md group-hover:flex"
-//         }`}
-//       >
-//         {item.children?.map((subItem) => (
-//           <NavItem
-//             key={subItem.id}
-//             {...subItem}
-//             className={`${
-//               isMobile ? "w-full px-6 py-2 text-left text-white" : "px-4 py-2 text-black"
-//             } whitespace-nowrap hover:bg-neutral-100`}
-//           />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export { NavDropdown };
-
 import { useState } from "react";
 
-import { NavItem } from "./NavItem";
-
 import type { NavigationItem } from "@/layouts/navigation.types";
+import { NavItem } from "@/shared/components/common/NavItem";
 import { RemixIcons } from "@/shared/constants/icons";
 
 interface NavDropdownProps {

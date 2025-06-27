@@ -10,7 +10,7 @@ import { CTASection } from "@/shared/components/common/CTASection";
 
 const HomePage = () => {
   return (
-    <>
+    <div className='relative -top-18'>
       <HeroSection />
       <FeaturesSection />
       <MiddleHeroSection />
@@ -20,7 +20,7 @@ const HomePage = () => {
       <FeaturesGridSection />
       <UnboxingVideo />
       <CTASection />
-    </>
+    </div>
   );
 };
 

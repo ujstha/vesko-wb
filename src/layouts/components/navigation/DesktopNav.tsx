@@ -1,9 +1,8 @@
 import React from "react";
 
-import { NavItem } from "./NavItem";
-
 import { NavDropdown } from "@/layouts/components/navigation/NavDropdown";
 import { MAIN_NAVIGATION } from "@/layouts/navigation.constants";
+import { NavItem } from "@/shared/components/common/NavItem";
 
 const DesktopNav: React.FC = () => {
   const visibleItems = MAIN_NAVIGATION.filter((item) => item);

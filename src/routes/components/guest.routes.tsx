@@ -9,6 +9,7 @@ import { ROUTE_PATHS } from "@/routes/constants/route-paths";
 const HomePage = lazy(() => import("@/pages/HomePage"));
 const AboutPage = lazy(() => import("@/pages/AboutPage"));
 const ForPeoplePage = lazy(() => import("@/pages/ForPeoplePage"));
+const ForOfflineVendorPage = lazy(() => import("@/pages/ForOfflineVendorPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
@@ -25,6 +26,10 @@ export const GuestRoutes = (): RouteObject[] => {
           {
             path: ROUTE_PATHS.about[lang],
             element: <AboutPage />,
+          },
+          {
+            path: ROUTE_PATHS.offlineVendors[lang],
+            element: <ForOfflineVendorPage />,
           },
           {
             path: ROUTE_PATHS.contact[lang],

@@ -2,10 +2,9 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 
-import { NavItem } from "./NavItem";
-
 import { NavDropdown } from "@/layouts/components/navigation/NavDropdown";
 import { MAIN_NAVIGATION } from "@/layouts/navigation.constants";
+import { NavItem } from "@/shared/components/common/NavItem";
 import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
 import { SOCIALS } from "@/shared/constants/socials";

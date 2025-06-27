@@ -5,6 +5,6 @@ export const ROUTE_PATHS = {
   people: { en: "for-people", fi: "ihmisille" },
   contact: { en: "contact", fi: "yhteystiedot" },
   register: { en: "register", fi: "rekisteröidy" },
-  "offline-vendors": { en: "offline-vendors", fi: "offline-kauppiaat" },
-  "online-vendors": { en: "online-vendors", fi: "online-kauppiaat" },
+  offlineVendors: { en: "offline-vendors", fi: "offline-kauppiaat" },
+  onlineVendors: { en: "online-vendors", fi: "online-kauppiaat" },
 } as const;

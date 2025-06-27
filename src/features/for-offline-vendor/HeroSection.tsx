@@ -47,32 +47,6 @@ const HeroSection = () => {
     },
   };
 
-  const taglineVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut",
-        delay: 0.6,
-      },
-    },
-  };
-
-  const scrollIndicatorVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.8,
-        ease: "easeOut",
-        delay: 1.2,
-      },
-    },
-  };
-
   const floatingElementVariants = {
     animate: {
       y: [0, -10, 0],
@@ -87,7 +61,7 @@ const HeroSection = () => {
   return (
     <Section
       className='relative min-h-screen items-center bg-cover bg-center px-4 py-32 xl:flex'
-      style={{ backgroundImage: `url(${Assets.aboutHero})` }}
+      style={{ backgroundImage: `url(${Assets.veskoBg})` }}
     >
       {/* Enhanced background overlay with gradient animation */}
       <motion.div
@@ -138,7 +112,7 @@ const HeroSection = () => {
               variant='heading'
               className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-8xl'
             >
-              {t("about.hero.title")}
+              OmniStore ®, Designed & Built For You
             </Text>
           </motion.div>
 
@@ -148,15 +122,8 @@ const HeroSection = () => {
               variant='title'
               className='mx-auto mb-8 max-w-4xl text-xl font-normal text-gray-200 md:text-2xl lg:text-3xl'
             >
-              {t("about.hero.subtitle")}
+              Your shop, online with OmniStore.
             </Text>
-          </motion.div>
-
-          {/* Tagline */}
-          <motion.div variants={taglineVariants}>
-            <div className='mx-auto mb-12 max-w-3xl'>
-              <Text className='text-lg text-gray-300 md:text-xl'>{t("about.hero.tagline")}</Text>
-            </div>
           </motion.div>
 
           {/* Decorative line */}
@@ -171,7 +138,9 @@ const HeroSection = () => {
 
       {/* Scroll indicator - positioned at bottom of hero section */}
       <motion.div
-        variants={scrollIndicatorVariants}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 1.2 }}
         className='absolute bottom-8 left-1/2 z-20 -translate-x-1/2'
       >
         <motion.div

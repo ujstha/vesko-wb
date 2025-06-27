@@ -113,6 +113,24 @@
     }
   },
   "forPeople": {
+    "hero": {
+      "title": "Ihmiset Yhdistetty",
+      "subtitle": "Tutustu siihen, miten Vesko yhdistää sinut paikallisiin yrityksiin ja yhteisöihin",
+      "description": "Yhdisty paikalliseen yhteisöösi, löydä upeita tuotteita ja rakennetaan merkityksellisiä suhteita turvallisessa digitaalisessa tilassa.",
+      "formTitle": "Ole ensimmäisten joukossa kokeilemassa Veskota",
+      "socialProof": "Liity 2 847+ odottavan ihmisen joukkoon",
+      "trustIndicators": {
+        "free": "Ilmainen liittyä",
+        "earlyAccess": "Aikainen pääsy",
+        "noSpam": "Ei roskapostia"
+      },
+      "urgencyMessage": "🚀 Lanssaamassa pian - Hanki etuoikeutettu pääsy",
+      "waitlist": {
+        "button": "Liity odotuslistalle",
+        "placeholder": "esimerkki@sähköposti.fi",
+        "success": "Olet listalla! Ilmoitamme sinulle kun lanssaamme."
+      }
+    },
     "whatIsVesko": {
       "title": {
         "line1": "Mikä",
@@ -141,6 +159,133 @@
         "mainText": "Näyttää tutulta suunnittelultaan",
         "subText": "Mutta se ei ole sama myrkyllinen tila, johon olet tottunut"
       }
+    },
+    "realMeetDigital": {
+      "title": "Todellinen kohtaa digitaalisen",
+      "description": "Koe saumaton yhteys fyysisen ja digitaalisen maailman välillä"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Tietoja Veskosta",
+      "subtitle": "Lue miksi rakennamme Veskota ja tutustu meihin",
+      "tagline": "Tutustu tarinaamme, arvoihimme ja missioomme luoda parempi digitaalinen maailma"
+    },
+    "whatIsVesko": {
+      "title": "Mikä on Vesko",
+      "description": "Vesko on enemmän kuin vain toinen sosiaalisen median alusta verkkokauppojen kanssa, se yhdistää ihmiset paikallisiin perinteisiin kauppoihin muuttamalla ne virtuaalisiksi näyttelytiloiksi. Tämä tarkoittaa, että ostajat voivat olla vuorovaikutuksessa fyysisten kauppojen kanssa digitaalisesti: selata varastossa olevia tuotteita, tarkistaa saatavuutta ja suunnitella vierailunsa kaikki ennen ulos astumista. Vesko tuo todellisen maailman sinulle digitaalisesti, tehdä offline-ostamisesta älykkäämpää ja kätevämpää. Se on ensimmäinen sosiaalinen kaupankäyntialusta, joka yhdistää ihmiset todelliseen maailmaan digitaalisesti."
+    },
+    "why": {
+      "title": "Yhdistäminen ja voimaannuttaminen",
+      "mission": "Tehtävämme on luoda turvallinen sosiaalinen digitaalinen tila, joka yhdistää ihmiset ja voimaannuttaa pieniä vähittäiskauppayrityksiä.",
+      "problem": {
+        "title": "Ongelma",
+        "description": "Uskomme, että teknologian piti luoda ratkaisuja, ei lisää ongelmia ja yhdistää meitä, ei erottaa. Mutta nykyään alustat tuntuvat meluisilta, jakavilta ja uuvuttavilta."
+      },
+      "solution": {
+        "title": "Ratkaisumme",
+        "description": "Siksi rakennamme Veskota, yhdistääksemme ihmiset uudelleen, ei vain digitaalisesti, vaan paikallisesti ja tuodaksemme yhteisöt lähemmäs toisiaan.",
+        "additional": "Tila, jossa voit olla oma itsesi ilman pelkoa tuomita siitä, kuka olet, mitä uskot tai ketä rakastat."
+      }
+    },
+    "ourStory": {
+      "title": "Tarinamme",
+      "subtitle": "Haluamme luoda turvallisen sosiaalisen digitaalisen ympäristön ja voimaannuttaa pieniä yrityksiä",
+      "omnistore": {
+        "title": "Teknologiamme: OmniStore",
+        "description": "Olemme kehittäneet uuden teknologian nimeltä OmniStore, edullisen, helppokäyttöisen ratkaisun, joka auttaa offline-kauppiaita myymään verkossa ja houkuttelemaan asiakkaita, jolloin ihmiset voivat selata reaaliaikaista tuotesaatavuutta ja kauppojen tarjontaa."
+      },
+      "timeline": {
+        "beginning": {
+          "title": "Alku",
+          "location": "Joensuu, Suomi",
+          "content": "Veskon tarina alkoi vuonna 2019 Joensuussa, pienessä kaupungissa Itä-Suomessa, jossa perustaja Leo Fadi huomasi, miten paikalliset vähittäiskauppaliikkeet sulkeutuivat vuosi vuodelta."
+        },
+        "realization": {
+          "title": "Vaikutuksen ymmärtäminen",
+          "location": "Tajunta",
+          "content": "Yrittäjänä hän ymmärsi, että jokaisen pienen yrityksen takana on perhe tai nuori yrittäjä, joten kun kauppa sulkeutuu, se ei ole vain tyhjiä ikkunoita; hän näki perheiden menettävän tulolähteensä ja nuorten yrittäjien katsovan unelmiensa murtuvan."
+        },
+        "problem": {
+          "title": "Digitaalinen kuilu",
+          "location": "Ongelma",
+          "content": "Digitaalisten ostokäyttäytymisen kasvaessa kävi selväksi, että pienet yritykset eivät kuolleet, koska ihmiset lopettivat offline-ostamisen, vaan he kamppailivat, koska heillä ei ollut pääsyä samoihin digitaalisiin työkaluihin kuin suurilla kauppiailla."
+        },
+        "solution": {
+          "title": "Vesko syntyy",
+          "location": "Ratkaisu",
+          "content": "Vesko luotiin korjaamaan tämä, ensin tarjoamalla pienille kaupoille edullinen tapa täyttää modernien ostajien odotukset digitaalisesta löydettävyydestä ja tuotesaatavuudesta."
+        },
+        "vision": {
+          "title": "Kauppaa pidemmälle",
+          "location": "Visio",
+          "content": "Ja toiseksi, uudelleenajattelemalla sosiaalisen median itsensä. Valtavirran alustat ovat muuttuneet myrkyllisemmiksi kuin hyödyllisiksi, työntäen tyhjää sisältöä merkityksellisen yhteyden sijaan."
+        },
+        "mission": {
+          "title": "Tarkoituksellinen alusta",
+          "location": "Tehtävä",
+          "content": "Joten Vesko rakennettiin myös sosiaaliseksi tilaksi tarkoituksella: yhdistää ihmiset toisiinsa ja paikallisiin yrityksiin, jotka pitävät yhteisöt elossa. Sydämessään Vesko on vastaus sekä markkinoiden että ihmisen tarpeisiin."
+        }
+      },
+      "quote": {
+        "text": "Sydämessään Vesko on vastaus sekä markkinoiden että ihmisen tarpeisiin.",
+        "author": "Leo Fadi, Perustaja"
+      }
+    },
+    "ourValues": {
+      "title": "Mitä arvostamme",
+      "empathy": {
+        "title": "Empatia",
+        "description": "Kuuntelemme, välitämme ja suunnittelemme ihmisten mielessä, luoden tilan, jossa kaikki tuntevat itsensä nähdyksi ja kunnioitetuksi."
+      },
+      "peace": {
+        "title": "Rauha",
+        "description": "Edistämme rauhallista, oikeudenmukaista ja tukevaa ympäristöä sekä digitaalisesti että todellisessa maailmassa."
+      },
+      "friendliness": {
+        "title": "Ystävällisyys",
+        "description": "Uskomme, että sosiaaliset alustat pitäisi tuntua naapurustoilta, tervetulevilta, ystävällisiltä ja avoimilta todelliselle yhteydelle."
+      },
+      "neutrality": {
+        "title": "Neutraliteetti",
+        "description": "Pidämme asiat yksinkertaisina, aitoina ja perustettuina arkipäiväiseen elämään. Alustana emme ota puolta, vain kannan rauhan, oikeudenmukaisuuden ja keskinäisen kunnioituksen puolesta."
+      },
+      "conclusion": "Nämä arvot ohjaavat kaikkea mitä teemme, tuotesuunnittelusta yhteisön rakentamiseen, varmistaen että Vesko pysyy alustana, joka todella palvelee ihmisiä ja yhteisöjä."
+    },
+    "unSDGs": {
+      "title": "YK:n kestävän kehityksen tavoitteet",
+      "introduction": "Vesko rakennetaan kestävyyden ympärille. Kun se käynnistyy, se vaikuttaa useilla tasoilla paikallisten talouksien voimaannuttamisesta ympäristön kuormituksen vähentämiseen. Tukemalla pieniä vähittäiskauppiaita älykkäillä, edullisilla digitaalisilla työkaluilla Vesko osallistuu suoraan useisiin YK:n kestävän kehityksen tavoitteisiin (SDG). Kyse ei ole vain siitä, miten ihmiset ostavat, vaan reilumman, vihreämmän ja kestävämmän tulevaisuuden rakentamisesta kaikille. Näin Vesko vastaa avain-SDG:tä:",
+      "goals": {
+        "sdg8": {
+          "title": "Kunnollinen työ ja talouskasvu",
+          "description": "Digitalisoimalla pieniä vähittäiskauppiaita Vesko edistää taloudellista osallisuutta, lisää paikallista kaupankäyntiä ja luo työpaikkoja."
+        },
+        "sdg9": {
+          "title": "Teollisuus, innovaatio ja infrastruktuuri",
+          "description": "Tarjoamalla PK-yrityksille skaalautuvia omnikanavaratkaisuja parannetaan digitaalista infrastruktuuria ja innovaatiota vähittäiskaupassa."
+        },
+        "sdg10": {
+          "title": "Eriarvoisuuden vähentäminen",
+          "description": "Tarjoamalla edullista teknologiaa pienille yrityksille Vesko auttaa ylittämään kuilun ja luo tasa-arvoisempia mahdollisuuksia."
+        },
+        "sdg11": {
+          "title": "Kestävät kaupungit ja yhteisöt",
+          "description": "Paikallisten yritysten vahvistaminen vähentää tuontiriippuvuutta ja edistää omavaraisia ja kestäviä kaupunkitalouksia."
+        },
+        "sdg12": {
+          "title": "Vastuullinen kulutus ja tuotanto",
+          "description": "Kysynnän ennustaminen ja suurten varastojen riippuvuuden vähentäminen auttaa vähentämään vähittäiskaupan jätteitä ja parantamaan resurssitehokkuutta."
+        },
+        "sdg13": {
+          "title": "Ilmastotoimet",
+          "description": "Paikallistamalla kauppaa ja vähentämällä pitkän matkan kuljetuksia Vesko minimoi logistiikan hiilidioksidipäästöt."
+        },
+        "sdg17": {
+          "title": "Kumppanuudet tavoitteiden saavuttamiseksi",
+          "description": "Yhteistyö vähittäiskauppiaiden, teknologian tarjoajien ja päättäjien kanssa tukee kestävää talouskasvua ja digitaalista muutosta."
+        }
+      },
+      "conclusion": "Yhdessä nämä SDG:t edustavat sitoutumistamme kestävän, osallistavan ja vauraan tulevaisuuden rakentamiseen kaikille."
     }
   },
   "notFound": {

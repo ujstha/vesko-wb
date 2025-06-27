@@ -31,6 +31,16 @@ import VeskoLogo from "@/assets/logos/vesko.PNG";
 import VeskoLogoLight from "@/assets/logos/vesko_light.PNG";
 import UnboxingVideo from "@/assets/videos/v-2.mp4";
 
+// ForOfflineVendorPage assets - using existing images
+import ProductOnTable from "@/assets/images/omnistore.jpg";
+import InventoryManagement from "@/assets/images/omnistore.jpg";
+import VeskoStore from "@/assets/images/omnistore.jpg";
+import MobileAppMockup from "@/assets/images/hero_mobile.png";
+import POSSystem from "@/assets/images/omnistore.jpg";
+import ShippingLabel from "@/assets/images/omnistore.jpg";
+import DeliveryTruck from "@/assets/images/omnistore.jpg";
+import StoreDashboard from "@/assets/images/omnistore.jpg";
+
 export const Assets = {
   logo: VeskoLogo,
   logoLight: VeskoLogoLight,
@@ -64,6 +74,16 @@ export const Assets = {
   tRmd4: TRMD4,
   tRmd5: TRMD5,
   tRmd6: TRMD6,
+
+  // ForOfflineVendorPage assets
+  productOnTable: ProductOnTable,
+  inventoryManagement: InventoryManagement,
+  veskoStore: VeskoStore,
+  mobileAppMockup: MobileAppMockup,
+  posSystem: POSSystem,
+  shippingLabel: ShippingLabel,
+  deliveryTruck: DeliveryTruck,
+  storeDashboard: StoreDashboard,
 };
 
 export type AssetKey = keyof typeof Assets;

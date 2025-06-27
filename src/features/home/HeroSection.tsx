@@ -1,7 +1,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
-import { useMediaQuery } from "react-responsive";
 import { useTranslation } from "react-i18next";
+import { useMediaQuery } from "react-responsive";
 
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
@@ -89,9 +89,47 @@ const HeroSection = () => {
     },
   };
 
+  const floatingVariants = {
+    animate: {
+      y: [0, -15, 0],
+      rotate: [0, 5, 0],
+      transition: {
+        duration: 4,
+        repeat: Infinity,
+        ease: "easeInOut",
+      },
+    },
+  };
+
   return (
     <>
-      <Section className='from-accent-700 -top-18 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 xl:flex'>
+      <Section className='from-accent-700 hidden min-h-screen items-center bg-gradient-to-b to-black px-4 py-32 xl:flex'>
+        <div className='pointer-events-none absolute inset-0 overflow-hidden'>
+          <motion.div
+            variants={floatingVariants}
+            animate='animate'
+            className='absolute top-20 left-20 h-4 w-4 rounded-full bg-white/20'
+          />
+          <motion.div
+            variants={floatingVariants}
+            animate='animate'
+            transition={{ delay: 1 }}
+            className='bg-accent-400/30 absolute top-40 right-32 h-6 w-6 rounded-full'
+          />
+          <motion.div
+            variants={floatingVariants}
+            animate='animate'
+            transition={{ delay: 2 }}
+            className='absolute bottom-20 left-1/3 h-3 w-3 rounded-full bg-purple-400/30'
+          />
+          <motion.div
+            variants={floatingVariants}
+            animate='animate'
+            transition={{ delay: 0.5 }}
+            className='absolute right-1/4 bottom-40 h-5 w-5 rounded-full bg-blue-400/30'
+          />
+        </div>
+
         <Container className='flex items-center justify-center'>
           <motion.img
             src={Assets.heroDesktop}
@@ -126,7 +164,28 @@ const HeroSection = () => {
           />
         </Container>
       </Section>
-      <Section className='from-accent-700 -top-18 flex h-[70dvh] justify-center overflow-hidden bg-gradient-to-b to-black pt-24 !pb-0 sm:pt-48 md:pt-32 lg:pt-[12.5rem] xl:hidden'>
+
+      <Section className='from-accent-700 flex h-[70dvh] justify-center overflow-hidden bg-gradient-to-b to-black pt-24 !pb-0 sm:pt-48 md:pt-32 lg:pt-[12.5rem] xl:hidden'>
+        <div className='pointer-events-none absolute inset-0 overflow-hidden'>
+          <motion.div
+            variants={floatingVariants}
+            animate='animate'
+            className='absolute top-20 left-10 h-4 w-4 rounded-full bg-white/20'
+          />
+          <motion.div
+            variants={floatingVariants}
+            animate='animate'
+            transition={{ delay: 1 }}
+            className='bg-accent-400/30 absolute top-40 right-20 h-6 w-6 rounded-full'
+          />
+          <motion.div
+            variants={floatingVariants}
+            animate='animate'
+            transition={{ delay: 2 }}
+            className='absolute bottom-20 left-1/4 h-3 w-3 rounded-full bg-purple-400/30'
+          />
+        </div>
+
         <motion.img
           src={Assets.heroMobile}
           alt='Mobile'
