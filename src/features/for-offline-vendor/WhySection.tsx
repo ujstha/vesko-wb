@@ -74,14 +74,14 @@ const WhySection = () => {
               variant='heading'
               className='text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl'
             >
-              Why OmniStore?
+              {t("forOfflineVendor.why.title")}
             </Text>
           </motion.div>
 
           {/* Subtitle */}
           <motion.div variants={textVariants} className='mb-16 text-center'>
             <Text className='text-xl text-gray-600 md:text-2xl'>
-              Because 9 out of 10 purchases begin online!
+              {t("forOfflineVendor.why.subtitle")}
             </Text>
           </motion.div>
 
@@ -112,7 +112,7 @@ const WhySection = () => {
                   <div className='h-2 flex-1 rounded-full bg-white/30'>
                     <div className='h-full w-1/3 rounded-full bg-white' />
                   </div>
-                  <span className='text-sm'>2:45 / 8:30</span>
+                  <span className='text-sm'>{t("forOfflineVendor.why.video.progress")}</span>
                 </div>
                 <div className='flex items-center gap-2'>
                   <button className='rounded-full p-2 text-white hover:bg-white/20'>
@@ -149,16 +149,28 @@ const WhySection = () => {
             className='mt-12 grid grid-cols-1 gap-6 text-center md:grid-cols-3'
           >
             <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-blue-600 md:text-6xl'>90%</Text>
-              <Text className='text-gray-600'>of purchases start online</Text>
+              <Text className='text-5xl font-bold text-blue-600 md:text-6xl'>
+                {t("forOfflineVendor.why.stats.onlinePurchases.percentage")}
+              </Text>
+              <Text className='text-gray-600'>
+                {t("forOfflineVendor.why.stats.onlinePurchases.description")}
+              </Text>
             </div>
             <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-purple-600 md:text-6xl'>3x</Text>
-              <Text className='text-gray-600'>more likely to visit store</Text>
+              <Text className='text-5xl font-bold text-purple-600 md:text-6xl'>
+                {t("forOfflineVendor.why.stats.storeVisits.multiplier")}
+              </Text>
+              <Text className='text-gray-600'>
+                {t("forOfflineVendor.why.stats.storeVisits.description")}
+              </Text>
             </div>
             <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-green-600 md:text-6xl'>67%</Text>
-              <Text className='text-gray-600'>higher conversion rate</Text>
+              <Text className='text-5xl font-bold text-green-600 md:text-6xl'>
+                {t("forOfflineVendor.why.stats.conversionRate.percentage")}
+              </Text>
+              <Text className='text-gray-600'>
+                {t("forOfflineVendor.why.stats.conversionRate.description")}
+              </Text>
             </div>
           </motion.div>
         </motion.div>

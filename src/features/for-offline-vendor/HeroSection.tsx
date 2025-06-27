@@ -112,7 +112,7 @@ const HeroSection = () => {
               variant='heading'
               className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-8xl'
             >
-              OmniStore ®, Designed & Built For You
+              {t("forOfflineVendor.hero.title")}
             </Text>
           </motion.div>
 
@@ -122,7 +122,7 @@ const HeroSection = () => {
               variant='title'
               className='mx-auto mb-8 max-w-4xl text-xl font-normal text-gray-200 md:text-2xl lg:text-3xl'
             >
-              Your shop, online with OmniStore.
+              {t("forOfflineVendor.hero.subtitle")}
             </Text>
           </motion.div>
 
@@ -148,7 +148,9 @@ const HeroSection = () => {
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           className='flex flex-col items-center space-y-2'
         >
-          <Text className='text-sm text-gray-400'>Scroll to explore</Text>
+          <Text className='text-sm text-gray-400'>
+            {t("forOfflineVendor.hero.scrollToExplore")}
+          </Text>
           <div className='h-6 w-0.5 bg-gradient-to-b from-gray-400 to-transparent' />
         </motion.div>
       </motion.div>

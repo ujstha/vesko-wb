@@ -310,5 +310,216 @@
     "previous": "Edellinen",
     "next": "Seuraava",
     "goToReview": "Siirry arvosteluun"
+  },
+  "forOfflineVendor": {
+    "hero": {
+      "title": "OmniStore ®, Suunniteltu ja Rakennettu Sinulle",
+      "subtitle": "Kauppasi verkossa OmniStoren avulla.",
+      "scrollToExplore": "Vieritä tutustuaksesi"
+    },
+    "omnistoreBenefit": {
+      "title": "Houkuttele Digitaalisesti Ajattelevia Offline-Asiakkaita OmniStore ® -palvelulla Kasvattaaksesi Yritystäsi",
+      "subtitle": "Rekisteröidy nyt ja saa early bird -pääsy, nauti ilmaisesta 3 kuukauden kokeilusta!",
+      "trustIndicators": {
+        "freeTrial": "Ilmainen 3 kuukauden kokeilu",
+        "noSetupFees": "Ei asennusmaksuja",
+        "cancelAnytime": "Peruuta milloin tahansa"
+      }
+    },
+    "whatIsOmniStore": {
+      "title": "Mikä on OmniStore?",
+      "description": "OmniStore ® muuttaa fyysisen kauppasi virtuaaliseksi näyttelytilaksi, jolloin asiakkaat näkevät mitä on saatavilla reaaliajassa, ennen kuin he edes astuvat sisään.",
+      "highlights": {
+        "realTimeInventory": "Reaaliaikainen varastonäkymä",
+        "seamlessIntegration": "Saumaton online-offline-integraatio",
+        "enhancedExperience": "Parannettu asiakaskokemus"
+      }
+    },
+    "why": {
+      "title": "Miksi OmniStore?",
+      "subtitle": "Koska 9 ostoksesta 10 alkaa verkosta!",
+      "stats": {
+        "onlinePurchases": {
+          "percentage": "90%",
+          "description": "ostoksista alkaa verkosta"
+        },
+        "storeVisits": {
+          "multiplier": "3x",
+          "description": "todennäköisemmin vierailee kaupassa"
+        },
+        "conversionRate": {
+          "percentage": "67%",
+          "description": "korkeampi konversioaste"
+        }
+      },
+      "video": {
+        "progress": "2:45 / 8:30"
+      }
+    },
+    "benefits": {
+      "title": "Miksi OmniStore?",
+      "growth": {
+        "title": "Kasvu",
+        "description": "Tuo enemmän kävijöitä kauppaasi auttamalla asiakkaita tarkistamaan tuotesaatavuuden ja yksityiskohdat ennen vierailua."
+      },
+      "unifiedInventory": {
+        "title": "Yhdistetty Varasto",
+        "description": "Listaa sama tuote verkossa ja offline-tilassa, vähennä kustannuksia erillisen online-varaston hallinnasta."
+      },
+      "scalable": {
+        "title": "Skaalautuva",
+        "description": "Jokainen Vesko-kauppa sisältää haun, tilaushallinnan ja varastotyökalut, valmiina kasvamaan yrityksesi mukana."
+      },
+      "expandReach": {
+        "title": "Laajenna Saavutettavuutta",
+        "description": "Offline-asiakkaiden lisäksi voit laajentaa saavutettavuuttasi ja myydä verkossa koko maassa."
+      },
+      "cta": {
+        "title": "Valmis muuttamaan yrityksesi?",
+        "description": "Liity tuhansien kauppojen joukkoon, jotka jo käyttävät OmniStorea kasvattaakseen yritystään."
+      }
+    },
+    "howItWorks": {
+      "title": "Miten Se Toimii",
+      "steps": {
+        "signup": {
+          "title": "Rekisteröidy",
+          "description": "Valitse sopiva tilaussuunnitelma (tulossa pian), rekisteröidy ja luo profiilisi ja kauppasi."
+        },
+        "listProducts": {
+          "title": "Listaa Tuotteet",
+          "description": "Lisää varastosi kauppaasi Veskossa, käytä tai muokkaa sisäänrakennettua tuotekategorisointia."
+        },
+        "sell": {
+          "title": "Myy",
+          "description": "Kun painat listaa, tuotteet ovat saatavilla kaupassasi asiakkailesi, seuraajasi näkevät uuden tuotteesi kotisivullaan."
+        }
+      },
+      "bottomMessage": {
+        "title": "Kyllä, se on niin helppoa! 😎",
+        "subtitle": "Aloita minuuteissa, ei päivissä"
+      }
+    },
+    "features": {
+      "title": "Veskon OmniStore on suunniteltu kasvattamaan yritystäsi minimaalisella vaivalla kauppasi hallinnassa.",
+      "mobileApp": {
+        "title": "Mobiilisovellus",
+        "description": "Vesko on saatavilla sekä iOS:llä että Androidilla hallitaksesi kauppaasi, seurataksesi tilauksia ja ollaaksesi vuorovaikutuksessa asiakkaiden kanssa liikkeellä.",
+        "highlights": [
+          "iOS ja Android yhteensopiva",
+          "Reaaliaikaiset tilausilmoitukset",
+          "Offline-tilan tuki",
+          "Push-ilmoitukset päivityksistä"
+        ]
+      },
+      "logisticsReady": {
+        "title": "Logistiikka Valmis",
+        "description": "Toimitus tehty helpoksi. Paina vain \"Lähetä Toimitukseen\" ja me ja kuljettaja hoidamme kaiken.",
+        "highlights": [
+          "Yhden klikkauksen toimitusasetus",
+          "Useita kuljettajaintegraatioita",
+          "Reaaliaikaiset seurantapäivitykset",
+          "Automaattiset toimitusetiketit"
+        ]
+      },
+      "paymentsBuiltIn": {
+        "title": "Maksut Sisäänrakennettu",
+        "description": "Turvallinen transaktio ilman ylimääräisiä asetuksia. Veskon luotettu kumppani hoitaa kaiken kassasta maksuun.",
+        "highlights": [
+          "Useita maksutapoja",
+          "Turvallinen PCI-yhteensopivuus",
+          "Välitön maksunkäsittely",
+          "Automaattiset maksut"
+        ]
+      },
+      "socialisedSelling": {
+        "title": "Sosialisoitu Myynti",
+        "description": "Kauppasi ja sosiaalisen median profiilisi ovat samassa tilassa, tehdä kauppasi sosiaaliseksi, ostettavaksi ja eläväksi.",
+        "highlights": [
+          "Sosiaalisen median integraatio",
+          "Live-tuotenäytöt",
+          "Asiakkaiden sitouttamistyökalut",
+          "Viraalit jakamistoiminnot"
+        ]
+      },
+      "allInOneDashboard": {
+        "title": "Kaikki Yhdessä Ohjauspaneelissa",
+        "description": "Hallitse kaikkea, tilauksia, varastoa, asiakkaita ja oivalluksia, kaikki yhdestä yksinkertaisesta ja tehokkaasta ohjauspaneelista.",
+        "highlights": [
+          "Yhdistetty liiketoiminnan yleiskatsaus",
+          "Edistyneet analytiikat ja oivallukset",
+          "Asiakassuhteiden hallinta",
+          "Varaston optimointityökalut"
+        ]
+      },
+      "cta": {
+        "title": "Valmis aloittamaan?",
+        "description": "Liity tuhansien yritysten joukkoon, jotka jo käyttävät Veskon OmniStorea kasvattaakseen myyntiään ja saavuttaakseen enemmän asiakkaita.",
+        "trustIndicators": {
+          "freeTrial": "Ilmainen kokeilu saatavilla",
+          "noSetupFees": "Ei asennusmaksuja",
+          "support": "24/7 tuki"
+        }
+      }
+    },
+    "orderSection": {
+      "title": "Miten Online-tilauksen Täyttö Toimii",
+      "steps": {
+        "receiveOrder": {
+          "title": "Vastaanota Tilaus",
+          "description": "Saa välittömät ilmoitukset, kun asiakkaat tekevät tilauksia OmniStoren kautta, kaikilla yksityiskohdilla ja asiakastiedoilla."
+        },
+        "preparePackage": {
+          "title": "Valmista Paketti",
+          "description": "Pakkaa tilaus huolellisesti, tulosta toimitusetiketit automaattisesti ja valmistaudu noutoon tai toimittamiseen."
+        },
+        "sendForDelivery": {
+          "title": "Lähetä Toimitukseen",
+          "description": "Anna pakettisi luotetuille toimituskumppaneillemme ja seuraa koko matkaa reaaliajassa."
+        }
+      },
+      "bottomMessage": {
+        "title": "Kyllä, sekin on niin helppoa! \"Suunniteltu Sinulle\" ei ole vain sanaa! 😎",
+        "subtitle": "Virtaviivainen prosessi, joka säästää aikaasi ja vaivaasi"
+      },
+      "trustIndicators": {
+        "automatedLabels": "Automaattiset toimitusetiketit",
+        "realTimeTracking": "Reaaliaikainen seuranta",
+        "trustedPartners": "Luotetut toimituskumppanit"
+      }
+    },
+    "posSection": {
+      "title": "Kassajärjestelmät (POS) Veskossa",
+      "description": "Tarvitsetko POS-järjestelmän? Tarjoamme sinulle sellaisen. Sinulla on jo yksi? Integroimme kolmansien osapuolten kassajärjestelmät saumattomasti, joten sinun ei tarvitse. Sinulla on erikoinen POS-järjestelmäsi? Voimme auttaa integroimaan sen OmniStoreen",
+      "features": {
+        "weProvidePOS": {
+          "title": "Tarjoamme POS-järjestelmän",
+          "description": "Saa täydellinen POS-järjestelmä OmniStore-tilauksesi mukana"
+        },
+        "thirdPartyIntegration": {
+          "title": "Kolmannen Osapuolen Integraatio",
+          "description": "Yhdistä olemassa oleva POS-järjestelmäsi saumattomasti alustaamme"
+        },
+        "customIntegration": {
+          "title": "Mukautettu Integraatio",
+          "description": "Voimme auttaa integroimaan erikoisen POS-järjestelmäsi OmniStoreen"
+        }
+      },
+      "benefits": {
+        "title": "Miksi valita Veskon POS-ratkaisu?",
+        "seamlessIntegration": "Saumaton integraatio OmniStoreen",
+        "realTimeSync": "Reaaliaikainen varastosynkronointi",
+        "unifiedData": "Yhdistetty asiakastieto"
+      },
+      "cta": {
+        "title": "Valmis integroimaan POS-järjestelmäsi?",
+        "description": "Asiantuntijatiimimme auttaa sinua asettamaan täydellisen POS-ratkaisun yrityksellesi.",
+        "trustIndicators": {
+          "freeConsultation": "Ilmainen konsultaatio",
+          "quickSetup": "Nopea asennus",
+          "ongoingSupport": "Jatkuva tuki"
+        }
+      }
+    }
   }
 }

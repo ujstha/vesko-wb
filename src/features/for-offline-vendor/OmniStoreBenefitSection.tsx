@@ -71,14 +71,14 @@ const OmniStoreBenefitSection = () => {
               variant='heading'
               className='mb-6 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl'
             >
-              Attract Digitally Driven Offline Customers Using OmniStore ® To Grow Your Business
+              {t("forOfflineVendor.omnistoreBenefit.title")}
             </Text>
           </motion.div>
 
           {/* Subheader */}
           <motion.div variants={itemVariants} className='mb-12'>
             <Text className='text-lg text-gray-600 md:text-xl'>
-              Register now and get early bird access, enjoy a free 3-month trial!
+              {t("forOfflineVendor.omnistoreBenefit.subtitle")}
             </Text>
           </motion.div>
 
@@ -100,15 +100,15 @@ const OmniStoreBenefitSection = () => {
           >
             <div className='flex items-center gap-2'>
               <i className={`${RemixIcons.check} text-green-500`} />
-              <span>Free 3-month trial</span>
+              <span>{t("forOfflineVendor.omnistoreBenefit.trustIndicators.freeTrial")}</span>
             </div>
             <div className='flex items-center gap-2'>
               <i className={`${RemixIcons.check} text-green-500`} />
-              <span>No setup fees</span>
+              <span>{t("forOfflineVendor.omnistoreBenefit.trustIndicators.noSetupFees")}</span>
             </div>
             <div className='flex items-center gap-2'>
               <i className={`${RemixIcons.check} text-green-500`} />
-              <span>Cancel anytime</span>
+              <span>{t("forOfflineVendor.omnistoreBenefit.trustIndicators.cancelAnytime")}</span>
             </div>
           </motion.div>
         </motion.div>

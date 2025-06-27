@@ -16,34 +16,33 @@ const POSSection = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.3,
-        delayChildren: 0.2,
+        duration: 0.6,
+        staggerChildren: 0.2,
+        delayChildren: 0.1,
       },
     },
   };
 
   const textVariants = {
-    hidden: { opacity: 0, x: -50 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
-      x: 0,
+      y: 0,
       transition: {
-        duration: 0.8,
+        duration: 0.6,
         ease: "easeOut",
       },
     },
   };
 
   const imageVariants = {
-    hidden: { opacity: 0, scale: 0.8, x: 50 },
+    hidden: { opacity: 0, scale: 0.95 },
     visible: {
       opacity: 1,
       scale: 1,
-      x: 0,
       transition: {
-        duration: 1,
+        duration: 0.7,
         ease: "easeOut",
-        delay: 0.3,
       },
     },
   };
@@ -61,27 +60,27 @@ const POSSection = () => {
 
   const features = [
     {
-      title: "We provide POS",
-      description: "Get a complete POS system included with your OmniStore subscription",
+      titleKey: "forOfflineVendor.posSection.features.weProvidePOS.title",
+      descriptionKey: "forOfflineVendor.posSection.features.weProvidePOS.description",
       icon: RemixIcons.pos,
       color: "from-blue-500 to-blue-600",
     },
     {
-      title: "3rd Party Integration",
-      description: "Connect your existing POS system seamlessly with our platform",
+      titleKey: "forOfflineVendor.posSection.features.thirdPartyIntegration.title",
+      descriptionKey: "forOfflineVendor.posSection.features.thirdPartyIntegration.description",
       icon: RemixIcons.integration,
       color: "from-green-500 to-green-600",
     },
     {
-      title: "Custom Integration",
-      description: "We can help integrate your special POS system with OmniStore",
+      titleKey: "forOfflineVendor.posSection.features.customIntegration.title",
+      descriptionKey: "forOfflineVendor.posSection.features.customIntegration.description",
       icon: RemixIcons.settings,
       color: "from-purple-500 to-purple-600",
     },
   ];
 
   return (
-    <Section className='relative bg-white py-24'>
+    <Section className='bg-white'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
@@ -107,16 +106,14 @@ const POSSection = () => {
                   variant='heading'
                   className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
                 >
-                  Point Of Sale Systems (POS) In Vesko
+                  {t("forOfflineVendor.posSection.title")}
                 </Text>
               </div>
 
               {/* Subheader */}
               <div>
                 <Text className='text-xl leading-relaxed text-gray-600 md:text-2xl'>
-                  You need a POS? We will provide you with one, You already have one? We will
-                  integrate 3rd parties Point Of Sale Systems so you don&apos;t have to. You have
-                  your special POS? We can help you to integrate it with Your OmniStore
+                  {t("forOfflineVendor.posSection.description")}
                 </Text>
               </div>
 
@@ -124,7 +121,7 @@ const POSSection = () => {
               <div className='space-y-6'>
                 {features.map((feature, index) => (
                   <motion.div
-                    key={feature.title}
+                    key={feature.titleKey}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -139,8 +136,10 @@ const POSSection = () => {
                       <i className={`${feature.icon} text-xl`} />
                     </motion.div>
                     <div>
-                      <Text className='mb-1 font-semibold text-gray-900'>{feature.title}</Text>
-                      <Text className='text-gray-600'>{feature.description}</Text>
+                      <Text className='mb-1 font-semibold text-gray-900'>
+                        {t(feature.titleKey)}
+                      </Text>
+                      <Text className='text-gray-600'>{t(feature.descriptionKey)}</Text>
                     </div>
                   </motion.div>
                 ))}
@@ -149,22 +148,26 @@ const POSSection = () => {
               {/* Benefits */}
               <div className='rounded-2xl bg-gradient-to-r from-blue-50 to-purple-50 p-6'>
                 <Text className='mb-3 font-semibold text-gray-900'>
-                  Why choose Vesko&apos;s POS solution?
+                  {t("forOfflineVendor.posSection.benefits.title")}
                 </Text>
                 <div className='space-y-2'>
                   <div className='flex items-center gap-2'>
                     <i className={`${RemixIcons.check} text-green-500`} />
                     <Text className='text-sm text-gray-600'>
-                      Seamless integration with OmniStore
+                      {t("forOfflineVendor.posSection.benefits.seamlessIntegration")}
                     </Text>
                   </div>
                   <div className='flex items-center gap-2'>
                     <i className={`${RemixIcons.check} text-green-500`} />
-                    <Text className='text-sm text-gray-600'>Real-time inventory sync</Text>
+                    <Text className='text-sm text-gray-600'>
+                      {t("forOfflineVendor.posSection.benefits.realTimeSync")}
+                    </Text>
                   </div>
                   <div className='flex items-center gap-2'>
                     <i className={`${RemixIcons.check} text-green-500`} />
-                    <Text className='text-sm text-gray-600'>Unified customer data</Text>
+                    <Text className='text-sm text-gray-600'>
+                      {t("forOfflineVendor.posSection.benefits.unifiedData")}
+                    </Text>
                   </div>
                 </div>
               </div>
@@ -219,23 +222,25 @@ const POSSection = () => {
           <motion.div variants={textVariants} className='mt-16 text-center'>
             <div className='mx-auto max-w-3xl rounded-2xl bg-gradient-to-r from-blue-50 to-purple-50 p-8'>
               <Text className='mb-4 text-xl font-semibold text-gray-900'>
-                Ready to integrate your POS system?
+                {t("forOfflineVendor.posSection.cta.title")}
               </Text>
               <Text className='mb-6 text-gray-600'>
-                Our team of experts will help you set up the perfect POS solution for your business.
+                {t("forOfflineVendor.posSection.cta.description")}
               </Text>
               <div className='flex flex-wrap items-center justify-center gap-4 text-sm text-gray-500'>
                 <div className='flex items-center gap-2'>
                   <i className={`${RemixIcons.check} text-green-500`} />
-                  <span>Free consultation</span>
+                  <span>
+                    {t("forOfflineVendor.posSection.cta.trustIndicators.freeConsultation")}
+                  </span>
                 </div>
                 <div className='flex items-center gap-2'>
                   <i className={`${RemixIcons.check} text-green-500`} />
-                  <span>Quick setup</span>
+                  <span>{t("forOfflineVendor.posSection.cta.trustIndicators.quickSetup")}</span>
                 </div>
                 <div className='flex items-center gap-2'>
                   <i className={`${RemixIcons.check} text-green-500`} />
-                  <span>Ongoing support</span>
+                  <span>{t("forOfflineVendor.posSection.cta.trustIndicators.ongoingSupport")}</span>
                 </div>
               </div>
             </div>

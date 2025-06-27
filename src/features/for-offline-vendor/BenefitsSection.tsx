@@ -13,36 +13,32 @@ const BenefitsSection = () => {
 
   const benefits = [
     {
-      title: "Growth",
-      description:
-        "Bring more foot traffic to your store by helping customers check product availability and details before they visit.",
+      titleKey: "forOfflineVendor.benefits.growth.title",
+      descriptionKey: "forOfflineVendor.benefits.growth.description",
       icon: RemixIcons.growth,
       color: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       image: Assets.productOnTable,
     },
     {
-      title: "Unified Inventory",
-      description:
-        "List the same item online and offline, cut cost on managing a separate online-warehouse.",
+      titleKey: "forOfflineVendor.benefits.unifiedInventory.title",
+      descriptionKey: "forOfflineVendor.benefits.unifiedInventory.description",
       icon: RemixIcons.inventory,
       color: "from-green-500 to-green-600",
       bgColor: "bg-green-50",
       image: Assets.inventoryManagement,
     },
     {
-      title: "Scalable",
-      description:
-        "Every Vesko store comes with search, order management, and inventory tools, ready to grow as your business does.",
+      titleKey: "forOfflineVendor.benefits.scalable.title",
+      descriptionKey: "forOfflineVendor.benefits.scalable.description",
       icon: RemixIcons.scalable,
       color: "from-purple-500 to-purple-600",
       bgColor: "bg-purple-50",
       image: Assets.veskoStore,
     },
     {
-      title: "Expand Reach",
-      description:
-        "Beside offline customers, you can expand your reach and sell online nationwide.",
+      titleKey: "forOfflineVendor.benefits.expandReach.title",
+      descriptionKey: "forOfflineVendor.benefits.expandReach.description",
       icon: RemixIcons.expand,
       color: "from-orange-500 to-orange-600",
       bgColor: "bg-orange-50",
@@ -108,7 +104,7 @@ const BenefitsSection = () => {
               variant='heading'
               className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
             >
-              Why OmniStore?
+              {t("forOfflineVendor.benefits.title")}
             </Text>
           </motion.div>
 
@@ -116,7 +112,7 @@ const BenefitsSection = () => {
           <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-2'>
             {benefits.map((benefit, index) => (
               <motion.div
-                key={benefit.title}
+                key={benefit.titleKey}
                 variants={cardVariants}
                 className='group relative overflow-hidden rounded-2xl bg-white p-8 shadow-lg transition-all duration-300 hover:shadow-2xl'
               >
@@ -136,17 +132,19 @@ const BenefitsSection = () => {
 
                   {/* Title */}
                   <Text as='h3' variant='title' className='mb-4 text-2xl font-bold text-gray-900'>
-                    {benefit.title}
+                    {t(benefit.titleKey)}
                   </Text>
 
                   {/* Description */}
-                  <Text className='mb-6 leading-relaxed text-gray-600'>{benefit.description}</Text>
+                  <Text className='mb-6 leading-relaxed text-gray-600'>
+                    {t(benefit.descriptionKey)}
+                  </Text>
 
                   {/* Image */}
                   <div className='relative overflow-hidden rounded-xl'>
                     <Image
                       src={benefit.image}
-                      alt={benefit.title}
+                      alt={t(benefit.titleKey)}
                       className='h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105'
                     />
                     <div className='absolute inset-0 bg-gradient-to-t from-black/20 to-transparent' />
@@ -168,10 +166,10 @@ const BenefitsSection = () => {
           <motion.div variants={cardVariants} className='mt-16 text-center'>
             <div className='mx-auto max-w-2xl rounded-2xl bg-gradient-to-r from-blue-50 to-purple-50 p-8'>
               <Text className='mb-4 text-xl font-semibold text-gray-900'>
-                Ready to transform your business?
+                {t("forOfflineVendor.benefits.cta.title")}
               </Text>
               <Text className='text-gray-600'>
-                Join thousands of stores already using OmniStore to grow their business.
+                {t("forOfflineVendor.benefits.cta.description")}
               </Text>
             </div>
           </motion.div>

@@ -310,5 +310,216 @@
     "previous": "Previous",
     "next": "Next",
     "goToReview": "Go to review"
+  },
+  "forOfflineVendor": {
+    "hero": {
+      "title": "OmniStore ®, Designed & Built For You",
+      "subtitle": "Your shop, online with OmniStore.",
+      "scrollToExplore": "Scroll to explore"
+    },
+    "omnistoreBenefit": {
+      "title": "Attract Digitally Driven Offline Customers Using OmniStore ® To Grow Your Business",
+      "subtitle": "Register now and get early bird access, enjoy a free 3-month trial!",
+      "trustIndicators": {
+        "freeTrial": "Free 3-month trial",
+        "noSetupFees": "No setup fees",
+        "cancelAnytime": "Cancel anytime"
+      }
+    },
+    "whatIsOmniStore": {
+      "title": "What is OmniStore?",
+      "description": "OmniStore ® turns your physical store into a virtual showroom, letting customers see what's available in real time, before they even step inside.",
+      "highlights": {
+        "realTimeInventory": "Real-time inventory visibility",
+        "seamlessIntegration": "Seamless online-offline integration",
+        "enhancedExperience": "Enhanced customer experience"
+      }
+    },
+    "why": {
+      "title": "Why OmniStore?",
+      "subtitle": "Because 9 out of 10 purchases begin online!",
+      "stats": {
+        "onlinePurchases": {
+          "percentage": "90%",
+          "description": "of purchases start online"
+        },
+        "storeVisits": {
+          "multiplier": "3x",
+          "description": "more likely to visit store"
+        },
+        "conversionRate": {
+          "percentage": "67%",
+          "description": "higher conversion rate"
+        }
+      },
+      "video": {
+        "progress": "2:45 / 8:30"
+      }
+    },
+    "benefits": {
+      "title": "Why OmniStore?",
+      "growth": {
+        "title": "Growth",
+        "description": "Bring more foot traffic to your store by helping customers check product availability and details before they visit."
+      },
+      "unifiedInventory": {
+        "title": "Unified Inventory",
+        "description": "List the same item online and offline, cut cost on managing a separate online-warehouse."
+      },
+      "scalable": {
+        "title": "Scalable",
+        "description": "Every Vesko store comes with search, order management, and inventory tools, ready to grow as your business does."
+      },
+      "expandReach": {
+        "title": "Expand Reach",
+        "description": "Beside offline customers, you can expand your reach and sell online nationwide."
+      },
+      "cta": {
+        "title": "Ready to transform your business?",
+        "description": "Join thousands of stores already using OmniStore to grow their business."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": {
+        "signup": {
+          "title": "Sign up",
+          "description": "Choose a suitable subscription plan (coming soon), register, and create your profile and store."
+        },
+        "listProducts": {
+          "title": "List Products",
+          "description": "Add your inventory to your store in Vesko, use or adjust the built-in product categorising."
+        },
+        "sell": {
+          "title": "Sell",
+          "description": "Once you press the list, products will be available in your store for your customers, your followers will see your new product in their home feed."
+        }
+      },
+      "bottomMessage": {
+        "title": "Yes it's that easy! 😎",
+        "subtitle": "Get started in minutes, not days"
+      }
+    },
+    "features": {
+      "title": "Vesko's OmniStore is designed to grow your business with minimal effort managing your store.",
+      "mobileApp": {
+        "title": "Mobile App",
+        "description": "Vesko will be available on both iOS and Android manage your store, track orders, and engage with customers on the go.",
+        "highlights": [
+          "iOS and Android compatible",
+          "Real-time order notifications",
+          "Offline mode support",
+          "Push notifications for updates"
+        ]
+      },
+      "logisticsReady": {
+        "title": "Logistics Ready",
+        "description": "Delivery made easy. Just tap \"Send for Delivery\" and we and the carrier take care of everything.",
+        "highlights": [
+          "One-click delivery setup",
+          "Multiple carrier integration",
+          "Real-time tracking updates",
+          "Automated shipping labels"
+        ]
+      },
+      "paymentsBuiltIn": {
+        "title": "Payments Built-In",
+        "description": "Secured transaction with no extra setup. Vesko's trusted partner handles everything from checkout to payout.",
+        "highlights": [
+          "Multiple payment methods",
+          "Secure PCI compliance",
+          "Instant payment processing",
+          "Automated payouts"
+        ]
+      },
+      "socialisedSelling": {
+        "title": "Socialised Selling",
+        "description": "Your store and social media profile are in the same space, making your store social, shoppable, and alive.",
+        "highlights": [
+          "Social media integration",
+          "Live product showcases",
+          "Customer engagement tools",
+          "Viral sharing features"
+        ]
+      },
+      "allInOneDashboard": {
+        "title": "All-In-One Dashboard",
+        "description": "Manage everything, orders, inventory, customers, and insights, all from one simple and powerful dashboard.",
+        "highlights": [
+          "Unified business overview",
+          "Advanced analytics & insights",
+          "Customer relationship management",
+          "Inventory optimization tools"
+        ]
+      },
+      "cta": {
+        "title": "Ready to get started?",
+        "description": "Join thousands of businesses already using Vesko's OmniStore to grow their sales and reach more customers.",
+        "trustIndicators": {
+          "freeTrial": "Free trial available",
+          "noSetupFees": "No setup fees",
+          "support": "24/7 support"
+        }
+      }
+    },
+    "orderSection": {
+      "title": "How Online Order Fulfilment Works",
+      "steps": {
+        "receiveOrder": {
+          "title": "Receive Order",
+          "description": "Get instant notifications when customers place orders through your OmniStore, with all details and customer information."
+        },
+        "preparePackage": {
+          "title": "Prepare Package",
+          "description": "Pack the order with care, print shipping labels automatically, and get ready for pickup or delivery."
+        },
+        "sendForDelivery": {
+          "title": "Send Out For Delivery",
+          "description": "Hand over your package to our trusted delivery partners and track the entire journey in real-time."
+        }
+      },
+      "bottomMessage": {
+        "title": "Yes it's that easy too! \"Designed For you\" isn't a buzzword 😎!",
+        "subtitle": "Streamlined process that saves you time and effort"
+      },
+      "trustIndicators": {
+        "automatedLabels": "Automated shipping labels",
+        "realTimeTracking": "Real-time tracking",
+        "trustedPartners": "Trusted delivery partners"
+      }
+    },
+    "posSection": {
+      "title": "Point Of Sale Systems (POS) In Vesko",
+      "description": "You need a POS? We will provide you with one, You already have one? We will integrate 3rd parties Point Of Sale Systems so you don't have to. You have your special POS? We can help you to integrate it with Your OmniStore",
+      "features": {
+        "weProvidePOS": {
+          "title": "We provide POS",
+          "description": "Get a complete POS system included with your OmniStore subscription"
+        },
+        "thirdPartyIntegration": {
+          "title": "3rd Party Integration",
+          "description": "Connect your existing POS system seamlessly with our platform"
+        },
+        "customIntegration": {
+          "title": "Custom Integration",
+          "description": "We can help integrate your special POS system with OmniStore"
+        }
+      },
+      "benefits": {
+        "title": "Why choose Vesko's POS solution?",
+        "seamlessIntegration": "Seamless integration with OmniStore",
+        "realTimeSync": "Real-time inventory sync",
+        "unifiedData": "Unified customer data"
+      },
+      "cta": {
+        "title": "Ready to integrate your POS system?",
+        "description": "Our team of experts will help you set up the perfect POS solution for your business.",
+        "trustIndicators": {
+          "freeConsultation": "Free consultation",
+          "quickSetup": "Quick setup",
+          "ongoingSupport": "Ongoing support"
+        }
+      }
+    }
   }
 }

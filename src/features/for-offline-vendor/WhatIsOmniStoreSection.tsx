@@ -59,14 +59,14 @@ const WhatIsOmniStoreSection = () => {
   };
 
   return (
-    <Section className='relative min-h-screen bg-white py-24'>
+    <Section className='min-h-screen bg-white'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
         <div className='absolute right-10 bottom-20 h-24 w-24 rounded-full bg-purple-50' />
       </div>
 
-      <Container>
+      <Container className='relative'>
         <motion.div
           variants={containerVariants}
           initial='hidden'
@@ -83,15 +83,14 @@ const WhatIsOmniStoreSection = () => {
                 variant='heading'
                 className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
               >
-                What is OmniStore?
+                {t("forOfflineVendor.whatIsOmniStore.title")}
               </Text>
             </div>
 
             {/* Subheader */}
             <div>
               <Text className='text-xl leading-relaxed text-gray-600 md:text-2xl'>
-                OmniStore ® turns your physical store into a virtual showroom, letting customers
-                see what's available in real time, before they even step inside.
+                {t("forOfflineVendor.whatIsOmniStore.description")}
               </Text>
             </div>
 
@@ -99,15 +98,21 @@ const WhatIsOmniStoreSection = () => {
             <div className='space-y-4'>
               <div className='flex items-start gap-3'>
                 <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
-                <Text className='text-gray-700'>Real-time inventory visibility</Text>
+                <Text className='text-gray-700'>
+                  {t("forOfflineVendor.whatIsOmniStore.highlights.realTimeInventory")}
+                </Text>
               </div>
               <div className='flex items-start gap-3'>
                 <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
-                <Text className='text-gray-700'>Seamless online-offline integration</Text>
+                <Text className='text-gray-700'>
+                  {t("forOfflineVendor.whatIsOmniStore.highlights.seamlessIntegration")}
+                </Text>
               </div>
               <div className='flex items-start gap-3'>
                 <div className='mt-1 h-2 w-2 rounded-full bg-blue-500' />
-                <Text className='text-gray-700'>Enhanced customer experience</Text>
+                <Text className='text-gray-700'>
+                  {t("forOfflineVendor.whatIsOmniStore.highlights.enhancedExperience")}
+                </Text>
               </div>
             </div>
           </motion.div>
