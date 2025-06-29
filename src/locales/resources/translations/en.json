@@ -300,6 +300,7 @@
     "people": "For People",
     "contact": "Contact Us",
     "register": "Register",
+    "howItWorks": "See How it Works",
     "offline-vendors": "Offline Vendors",
     "online-vendors": "Online Vendors"
   },
@@ -382,16 +383,16 @@
     "howItWorks": {
       "title": "How It Works",
       "steps": {
-        "signup": {
-          "title": "Sign up",
+        "createStore": {
+          "title": "Create Your Store",
           "description": "Choose a suitable subscription plan (coming soon), register, and create your profile and store."
         },
-        "listProducts": {
-          "title": "List Products",
+        "addProducts": {
+          "title": "Add Your Products",
           "description": "Add your inventory to your store in Vesko, use or adjust the built-in product categorising."
         },
-        "sell": {
-          "title": "Sell",
+        "startSelling": {
+          "title": "Start Selling",
           "description": "Once you press the list, products will be available in your store for your customers, your followers will see your new product in their home feed."
         }
       },
@@ -467,7 +468,7 @@
       "steps": {
         "receiveOrder": {
           "title": "Receive Order",
-          "description": "Get instant notifications when customers place orders through your OmniStore, with all details and customer information."
+          "description": "Get instant notifications when customers place orders through your store, with all details and customer information."
         },
         "preparePackage": {
           "title": "Prepare Package",
@@ -519,6 +520,183 @@
           "quickSetup": "Quick setup",
           "ongoingSupport": "Ongoing support"
         }
+      }
+    }
+  },
+  "forOnlineVendor": {
+    "hero": {
+      "title": "Designed For You",
+      "subtitle": "The social commerce platform built to help you achieve your dreams",
+      "scrollToExplore": "Scroll to explore"
+    },
+    "valueProb": {
+      "title": "Socialise your selling, where your followers become customers, and supporters in growing your business",
+      "benefits": {
+        "buildCommunity": {
+          "title": "Build Your Community",
+          "description": "Connect with followers who become your loyal customers"
+        },
+        "socialCommerce": {
+          "title": "Social Commerce",
+          "description": "Turn your social media presence into a thriving business"
+        },
+        "growTogether": {
+          "title": "Grow Together",
+          "description": "Your success becomes your community's success"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "What Is Vesko's Online Store?",
+      "subtitle": "An online store inside your profile — where you connect with your customers, build a community, and turn followers into buyers. Social, shoppable, and made to grow with you.",
+      "features": {
+        "integratedProfile": "Integrated profile and store in one platform",
+        "meaningfulConnections": "Build meaningful connections with your customers",
+        "socialPresence": "Turn your social presence into a thriving business"
+      }
+    },
+    "startups": {
+      "title": "When the odds are against you, Vesko is with you",
+      "subtitle": "Have an idea? Want to start a side business while studying? Already have products but struggling to sell? Vesko helps you find your first adopters and grow from there.",
+      "benefits": {
+        "startJourney": {
+          "title": "Start Your Journey",
+          "description": "Transform your ideas into a thriving business"
+        },
+        "findCustomers": {
+          "title": "Find Your First Customers",
+          "description": "Connect with early adopters who believe in your vision"
+        },
+        "growTogether": {
+          "title": "Grow Together",
+          "description": "Build a community that supports your success"
+        }
+      }
+    },
+    "features": {
+      "title": "Great Minds Have Great Ideas, Vesko Helps Bring Them to Life.",
+      "subtitle": "From a few products to a thriving brand — Vesko's Online Store is made to scale with you.",
+      "items": {
+        "mobileApp": {
+          "title": "Mobile App",
+          "description": "Vesko will be available on both iOS and Android manage your store, track orders, and engage with customers on the go.",
+          "highlights": [
+            "iOS and Android compatible",
+            "Real-time order notifications",
+            "Offline mode support",
+            "Push notifications for updates"
+          ]
+        },
+        "logisticsReady": {
+          "title": "Logistics Ready",
+          "description": "Delivery made easy. Just tap \"Send for Delivery\" and we and the carrier take care of everything.",
+          "highlights": [
+            "One-click delivery setup",
+            "Multiple carrier integration",
+            "Real-time tracking updates",
+            "Automated shipping labels"
+          ]
+        },
+        "paymentsBuiltIn": {
+          "title": "Payments Built-In",
+          "description": "Secured transaction with no extra setup. Vesko's trusted partner handles everything from checkout to payout.",
+          "highlights": [
+            "Multiple payment methods",
+            "Secure PCI compliance",
+            "Instant payment processing",
+            "Automated payouts"
+          ]
+        },
+        "socialisedSelling": {
+          "title": "Socialised Selling",
+          "description": "Your store and social media profile are in the same space, making your store social, shoppable, and alive.",
+          "highlights": [
+            "Social media integration",
+            "Live product showcases",
+            "Customer engagement tools",
+            "Viral sharing features"
+          ]
+        },
+        "allInOneDashboard": {
+          "title": "All-In-One Dashboard",
+          "description": "Manage everything, orders, inventory, customers, and insights, all from one simple and powerful dashboard.",
+          "highlights": [
+            "Unified business overview",
+            "Advanced analytics & insights",
+            "Customer relationship management",
+            "Inventory optimization tools"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Ready to get started?",
+        "description": "Join thousands of businesses already using Vesko's Online Store to grow their sales and reach more customers.",
+        "trustIndicators": {
+          "freeTrial": "Free trial available",
+          "noSetupFees": "No setup fees",
+          "support": "24/7 support"
+        }
+      }
+    },
+    "orderSection": {
+      "title": "How Online Order Fulfilment Works",
+      "steps": {
+        "receiveOrder": {
+          "title": "Receive Order",
+          "description": "Get instant notifications when customers place orders through your store, with all details and customer information."
+        },
+        "preparePackage": {
+          "title": "Prepare Package",
+          "description": "Pack the order with care, print shipping labels automatically, and get ready for pickup or delivery."
+        },
+        "sendForDelivery": {
+          "title": "Send Out For Delivery",
+          "description": "Hand over your package to our trusted delivery partners and track the entire journey in real-time."
+        }
+      },
+      "trustIndicators": {
+        "automatedLabels": "Automated shipping labels",
+        "realTimeTracking": "Real-time tracking",
+        "trustedPartners": "Trusted delivery partners"
+      },
+      "bottomMessage": {
+        "title": "Yes it's that easy too! \"Designed For you\" isn't a buzzword 😎!",
+        "subtitle": "Streamlined process that saves you time and effort"
+      }
+    },
+    "cta": {
+      "title": "Ready to Turn Your Ideas Into Reality?",
+      "subtitle": "Join thousands of entrepreneurs who are already building their dreams with Vesko. Start your journey today and see your business grow.",
+      "buttons": {
+        "startStore": "Start Your Store",
+        "learnMore": "Learn More"
+      },
+      "trustIndicators": {
+        "freeToStart": "Free to start",
+        "noSetupFees": "No setup fees",
+        "support": "24/7 support"
+      },
+      "socialProof": "Join 10,000+ entrepreneurs already using Vesko"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": {
+        "createStore": {
+          "title": "Create Your Store",
+          "description": "Choose a suitable subscription plan (coming soon), register, and create your profile and store."
+        },
+        "addProducts": {
+          "title": "Add Your Products",
+          "description": "Add your inventory to your store in Vesko, use or adjust the built-in product categorising."
+        },
+        "startSelling": {
+          "title": "Start Selling",
+          "description": "Once you press the list, products will be available in your store for your customers, your followers will see your new product in their home feed."
+        }
+      },
+      "bottomMessage": {
+        "title": "Yes it's that easy! 😎",
+        "subtitle": "Get started in minutes, not days"
       }
     }
   }

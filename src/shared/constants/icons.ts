@@ -56,7 +56,7 @@ export const RemixIcons = {
   order: "ri-file-list-3-line",
   print: "ri-printer-line",
   delivery: "ri-send-plane-line",
-  pos: "ri-cash-register-line",
+  pos: "ri-terminal-box-line",
   integration: "ri-plug-line",
   online: "ri-global-line",
   offline: "ri-store-line",

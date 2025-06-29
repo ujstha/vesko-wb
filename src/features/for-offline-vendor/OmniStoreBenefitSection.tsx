@@ -88,7 +88,7 @@ const OmniStoreBenefitSection = () => {
               label='nav.register'
               routeKey='register'
               isCTA
-              className='from-accent-500 to-accent-600 mx-auto w-44 justify-center gap-4 bg-gradient-to-br py-3 text-white'
+              className='from-accent-500 hover:from-accent-600 to-accent-600 hover:to-accent-700 border-0 bg-gradient-to-br px-8 py-4 text-lg font-semibold text-white shadow-lg'
             />
           </motion.div>
 

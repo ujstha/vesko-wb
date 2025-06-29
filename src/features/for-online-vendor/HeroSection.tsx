@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
+import { NavItem } from "@/shared/components/common/NavItem";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
@@ -9,7 +10,6 @@ import { Assets } from "@/shared/constants/assets";
 const HeroSection = () => {
   const { t } = useTranslation();
 
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -47,6 +47,26 @@ const HeroSection = () => {
     },
   };
 
+  const buttonVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+        delay: 0.6,
+      },
+    },
+    hover: {
+      scale: 1.05,
+      transition: {
+        duration: 0.2,
+        ease: "easeOut",
+      },
+    },
+  };
+
   const floatingElementVariants = {
     animate: {
       y: [0, -10, 0],
@@ -56,6 +76,13 @@ const HeroSection = () => {
         ease: "easeInOut",
       },
     },
+  };
+
+  const scrollToHowItWorks = () => {
+    const howItWorksSection = document.querySelector('[data-section="how-it-works"]');
+    if (howItWorksSection) {
+      howItWorksSection.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -114,7 +141,7 @@ const HeroSection = () => {
                 variant='heading'
                 className='mb-6 text-4xl font-bold text-white md:text-5xl lg:text-7xl xl:text-8xl'
               >
-                {t("forOfflineVendor.hero.title")}
+                {t("forOnlineVendor.hero.title")}
               </Text>
             </motion.div>
 
@@ -122,10 +149,35 @@ const HeroSection = () => {
             <motion.div variants={subtitleVariants}>
               <Text
                 variant='title'
-                className='mx-auto mb-8 max-w-4xl text-xl font-normal text-gray-200 md:text-2xl lg:text-3xl'
+                className='mx-auto mb-12 max-w-4xl text-xl font-normal text-gray-200 md:text-2xl lg:text-3xl'
               >
-                {t("forOfflineVendor.hero.subtitle")}
+                {t("forOnlineVendor.hero.subtitle")}
               </Text>
+            </motion.div>
+
+            {/* CTA Buttons */}
+            <motion.div
+              variants={buttonVariants}
+              className='flex flex-col items-center gap-4 sm:flex-row sm:justify-center'
+            >
+              <motion.div variants={buttonVariants} whileHover='hover'>
+                <NavItem
+                  id='register'
+                  label='nav.register'
+                  routeKey='register'
+                  isCTA
+                  className='from-accent-500 hover:from-accent-600 border-accent-600 to-accent-600 hover:to-accent-700 border bg-gradient-to-br px-8 py-4 text-lg font-semibold text-white shadow-lg'
+                />
+              </motion.div>
+              <motion.div variants={buttonVariants} whileHover='hover'>
+                <NavItem
+                  id='how-it-works'
+                  label='nav.howItWorks'
+                  routeKey='home'
+                  onClick={scrollToHowItWorks}
+                  className='rounded-full border border-white bg-transparent px-8 py-4 text-lg font-semibold text-white hover:bg-white hover:text-gray-900'
+                />
+              </motion.div>
             </motion.div>
 
             {/* Decorative line */}
@@ -133,7 +185,7 @@ const HeroSection = () => {
               initial={{ width: 0 }}
               animate={{ width: "120px" }}
               transition={{ duration: 1, delay: 0.9 }}
-              className='via-accent-400 mx-auto mb-8 h-1 bg-gradient-to-r from-transparent to-transparent'
+              className='via-accent-400 mx-auto mt-12 h-1 bg-gradient-to-r from-transparent to-transparent'
             />
           </motion.div>
         </Container>
@@ -151,9 +203,7 @@ const HeroSection = () => {
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           className='flex flex-col items-center space-y-2'
         >
-          <Text className='text-sm text-gray-400'>
-            {t("forOfflineVendor.hero.scrollToExplore")}
-          </Text>
+          <Text className='text-sm text-gray-400'>{t("forOnlineVendor.hero.scrollToExplore")}</Text>
           <div className='h-6 w-0.5 bg-gradient-to-b from-gray-400 to-transparent' />
         </motion.div>
       </motion.div>

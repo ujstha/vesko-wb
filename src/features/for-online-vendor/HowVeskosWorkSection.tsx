@@ -11,22 +11,22 @@ const HowVeskosWorkSection = () => {
 
   const steps = [
     {
-      titleKey: "forOfflineVendor.howItWorks.steps.createStore.title",
-      descriptionKey: "forOfflineVendor.howItWorks.steps.createStore.description",
+      titleKey: "forOnlineVendor.howItWorks.steps.createStore.title",
+      descriptionKey: "forOnlineVendor.howItWorks.steps.createStore.description",
       icon: RemixIcons.signup,
       color: "from-blue-500 to-blue-600",
       step: "01",
     },
     {
-      titleKey: "forOfflineVendor.howItWorks.steps.addProducts.title",
-      descriptionKey: "forOfflineVendor.howItWorks.steps.addProducts.description",
+      titleKey: "forOnlineVendor.howItWorks.steps.addProducts.title",
+      descriptionKey: "forOnlineVendor.howItWorks.steps.addProducts.description",
       icon: RemixIcons.list,
       color: "from-green-500 to-green-600",
       step: "02",
     },
     {
-      titleKey: "forOfflineVendor.howItWorks.steps.startSelling.title",
-      descriptionKey: "forOfflineVendor.howItWorks.steps.startSelling.description",
+      titleKey: "forOnlineVendor.howItWorks.steps.startSelling.title",
+      descriptionKey: "forOnlineVendor.howItWorks.steps.startSelling.description",
       icon: RemixIcons.sell,
       color: "from-purple-500 to-purple-600",
       step: "03",
@@ -69,7 +69,7 @@ const HowVeskosWorkSection = () => {
   };
 
   return (
-    <Section className='relative bg-white py-24'>
+    <Section className='bg-white' data-section='how-it-works'>
       {/* Background decorative elements */}
       <div className='pointer-events-none absolute inset-0 overflow-hidden'>
         <div className='absolute top-20 left-10 h-32 w-32 rounded-full bg-blue-50' />
@@ -92,7 +92,7 @@ const HowVeskosWorkSection = () => {
               variant='heading'
               className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
             >
-              {t("forOfflineVendor.howItWorks.title")}
+              {t("forOnlineVendor.howItWorks.title")}
             </Text>
           </motion.div>
 
@@ -162,10 +162,10 @@ const HowVeskosWorkSection = () => {
           <motion.div variants={stepVariants} className='mt-20 text-center'>
             <div className='mx-auto max-w-2xl rounded-2xl bg-gradient-to-r from-blue-50 to-purple-50 p-8'>
               <Text className='mb-2 text-2xl font-bold text-gray-900'>
-                {t("forOfflineVendor.howItWorks.bottomMessage.title")}
+                {t("forOnlineVendor.howItWorks.bottomMessage.title")}
               </Text>
               <Text className='text-lg text-gray-600'>
-                {t("forOfflineVendor.howItWorks.bottomMessage.subtitle")}
+                {t("forOnlineVendor.howItWorks.bottomMessage.subtitle")}
               </Text>
             </div>
           </motion.div>

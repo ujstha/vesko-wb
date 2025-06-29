@@ -10,6 +10,7 @@ const HomePage = lazy(() => import("@/pages/HomePage"));
 const AboutPage = lazy(() => import("@/pages/AboutPage"));
 const ForPeoplePage = lazy(() => import("@/pages/ForPeoplePage"));
 const ForOfflineVendorPage = lazy(() => import("@/pages/ForOfflineVendorPage"));
+const ForOnlineVendorPage = lazy(() => import("@/pages/ForOnlineVendorPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
@@ -30,6 +31,10 @@ export const GuestRoutes = (): RouteObject[] => {
           {
             path: ROUTE_PATHS.offlineVendors[lang],
             element: <ForOfflineVendorPage />,
+          },
+          {
+            path: ROUTE_PATHS.onlineVendors[lang],
+            element: <ForOnlineVendorPage />,
           },
           {
             path: ROUTE_PATHS.contact[lang],

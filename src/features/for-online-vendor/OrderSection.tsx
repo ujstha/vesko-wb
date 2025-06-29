@@ -13,22 +13,22 @@ const OrderSection = () => {
 
   const steps = [
     {
-      titleKey: "forOfflineVendor.orderSection.steps.receiveOrder.title",
-      descriptionKey: "forOfflineVendor.orderSection.steps.receiveOrder.description",
+      titleKey: "forOnlineVendor.orderSection.steps.receiveOrder.title",
+      descriptionKey: "forOnlineVendor.orderSection.steps.receiveOrder.description",
       icon: RemixIcons.order,
       color: "from-blue-500 to-blue-600",
       step: "01",
     },
     {
-      titleKey: "forOfflineVendor.orderSection.steps.preparePackage.title",
-      descriptionKey: "forOfflineVendor.orderSection.steps.preparePackage.description",
+      titleKey: "forOnlineVendor.orderSection.steps.preparePackage.title",
+      descriptionKey: "forOnlineVendor.orderSection.steps.preparePackage.description",
       icon: RemixIcons.print,
       color: "from-green-500 to-green-600",
       step: "02",
     },
     {
-      titleKey: "forOfflineVendor.orderSection.steps.sendForDelivery.title",
-      descriptionKey: "forOfflineVendor.orderSection.steps.sendForDelivery.description",
+      titleKey: "forOnlineVendor.orderSection.steps.sendForDelivery.title",
+      descriptionKey: "forOnlineVendor.orderSection.steps.sendForDelivery.description",
       icon: RemixIcons.delivery,
       color: "from-purple-500 to-purple-600",
       step: "03",
@@ -97,7 +97,7 @@ const OrderSection = () => {
                   variant='heading'
                   className='mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl'
                 >
-                  {t("forOfflineVendor.orderSection.title")}
+                  {t("forOnlineVendor.orderSection.title")}
                 </Text>
               </div>
 
@@ -133,19 +133,19 @@ const OrderSection = () => {
                   <div className='flex items-center gap-2'>
                     <i className={`${RemixIcons.check} text-green-500`} />
                     <Text className='text-sm text-gray-600'>
-                      {t("forOfflineVendor.orderSection.trustIndicators.automatedLabels")}
+                      {t("forOnlineVendor.orderSection.trustIndicators.automatedLabels")}
                     </Text>
                   </div>
                   <div className='flex items-center gap-2'>
                     <i className={`${RemixIcons.check} text-green-500`} />
                     <Text className='text-sm text-gray-600'>
-                      {t("forOfflineVendor.orderSection.trustIndicators.realTimeTracking")}
+                      {t("forOnlineVendor.orderSection.trustIndicators.realTimeTracking")}
                     </Text>
                   </div>
                   <div className='flex items-center gap-2'>
                     <i className={`${RemixIcons.check} text-green-500`} />
                     <Text className='text-sm text-gray-600'>
-                      {t("forOfflineVendor.orderSection.trustIndicators.trustedPartners")}
+                      {t("forOnlineVendor.orderSection.trustIndicators.trustedPartners")}
                     </Text>
                   </div>
                 </div>
@@ -201,10 +201,10 @@ const OrderSection = () => {
           <motion.div variants={stepVariants} className='mt-16 text-center'>
             <div className='mx-auto max-w-3xl rounded-2xl bg-gradient-to-r from-blue-50 to-purple-50 p-8'>
               <Text className='mb-4 text-xl font-semibold text-gray-900'>
-                {t("forOfflineVendor.orderSection.bottomMessage.title")}
+                {t("forOnlineVendor.orderSection.bottomMessage.title")}
               </Text>
               <Text className='text-gray-600'>
-                {t("forOfflineVendor.orderSection.bottomMessage.subtitle")}
+                {t("forOnlineVendor.orderSection.bottomMessage.subtitle")}
               </Text>
             </div>
           </motion.div>

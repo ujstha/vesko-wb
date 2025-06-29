@@ -300,6 +300,7 @@
     "people": "Ihmiset",
     "contact": "Yhteys",
     "register": "Rekisteröidy",
+    "howItWorks": "Katso miten se toimii",
     "offline-vendors": "Offline-myyjät",
     "online-vendors": "Verkkokauppiaat"
   },
@@ -382,16 +383,16 @@
     "howItWorks": {
       "title": "Miten Se Toimii",
       "steps": {
-        "signup": {
-          "title": "Rekisteröidy",
+        "createStore": {
+          "title": "Luo Kauppasi",
           "description": "Valitse sopiva tilaussuunnitelma (tulossa pian), rekisteröidy ja luo profiilisi ja kauppasi."
         },
-        "listProducts": {
-          "title": "Listaa Tuotteet",
+        "addProducts": {
+          "title": "Lisää Tuotteesi",
           "description": "Lisää varastosi kauppaasi Veskossa, käytä tai muokkaa sisäänrakennettua tuotekategorisointia."
         },
-        "sell": {
-          "title": "Myy",
+        "startSelling": {
+          "title": "Aloita Myynti",
           "description": "Kun painat listaa, tuotteet ovat saatavilla kaupassasi asiakkailesi, seuraajasi näkevät uuden tuotteesi kotisivullaan."
         }
       },
@@ -437,9 +438,9 @@
         "description": "Kauppasi ja sosiaalisen median profiilisi ovat samassa tilassa, tehdä kauppasi sosiaaliseksi, ostettavaksi ja eläväksi.",
         "highlights": [
           "Sosiaalisen median integraatio",
-          "Live-tuotenäytöt",
-          "Asiakkaiden sitouttamistyökalut",
-          "Viraalit jakamistoiminnot"
+          "Live-tuoteesittelyt",
+          "Asiakkaiden vuorovaikutustyökalut",
+          "Viraalinen jakamisen ominaisuudet"
         ]
       },
       "allInOneDashboard": {
@@ -447,7 +448,7 @@
         "description": "Hallitse kaikkea, tilauksia, varastoa, asiakkaita ja oivalluksia, kaikki yhdestä yksinkertaisesta ja tehokkaasta ohjauspaneelista.",
         "highlights": [
           "Yhdistetty liiketoiminnan yleiskatsaus",
-          "Edistyneet analytiikat ja oivallukset",
+          "Edistyneet analytiikka ja oivallukset",
           "Asiakassuhteiden hallinta",
           "Varaston optimointityökalut"
         ]
@@ -467,7 +468,7 @@
       "steps": {
         "receiveOrder": {
           "title": "Vastaanota Tilaus",
-          "description": "Saa välittömät ilmoitukset, kun asiakkaat tekevät tilauksia OmniStoren kautta, kaikilla yksityiskohdilla ja asiakastiedoilla."
+          "description": "Saa välittömät ilmoitukset, kun asiakkaat tekevät tilauksia kauppasi kautta, kaikilla yksityiskohdilla ja asiakastiedoilla."
         },
         "preparePackage": {
           "title": "Valmista Paketti",
@@ -519,6 +520,183 @@
           "quickSetup": "Nopea asennus",
           "ongoingSupport": "Jatkuva tuki"
         }
+      }
+    }
+  },
+  "forOnlineVendor": {
+    "hero": {
+      "title": "Suunniteltu Sinulle",
+      "subtitle": "Sosiaalinen kaupankäyntialusta, joka on rakennettu auttamaan sinua saavuttamaan unelmasi",
+      "scrollToExplore": "Vieritä tutustuaksesi"
+    },
+    "valueProb": {
+      "title": "Sosialisoi myyntisi, jossa seuraajasi tulevat asiakkaitasi ja tukijoiksi yrityksesi kasvussa",
+      "benefits": {
+        "buildCommunity": {
+          "title": "Rakenna Yhteisösi",
+          "description": "Yhdisty seuraajiin, jotka tulevat uskollisiksi asiakkaitasi"
+        },
+        "socialCommerce": {
+          "title": "Sosiaalinen Kaupankäynti",
+          "description": "Muuta sosiaalisen median läsnäolosi kukoistavaksi liiketoiminnaksi"
+        },
+        "growTogether": {
+          "title": "Kasva Yhdessä",
+          "description": "Menestyksesi tulee yhteisösi menestykseksi"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "Mikä on Veskon Online-kauppa?",
+      "subtitle": "Online-kauppa profiilisi sisällä — missä yhdistyt asiakkaitasi, rakennat yhteisön ja muutat seuraajat ostajiksi. Sosiaalinen, ostettava ja tehty kasvamaan kanssasi.",
+      "features": {
+        "integratedProfile": "Integroitu profiili ja kauppa yhdessä alustassa",
+        "meaningfulConnections": "Rakenna merkityksellisiä yhteyksiä asiakkaitasi kanssa",
+        "socialPresence": "Muuta sosiaalinen läsnäolosi kukoistavaksi liiketoiminnaksi"
+      }
+    },
+    "startups": {
+      "title": "Kun mahdollisuudet ovat sinua vastaan, Vesko on kanssasi",
+      "subtitle": "Sinulla on idea? Haluatko aloittaa sivubisneksen opiskellessasi? Sinulla on jo tuotteita, mutta ongelmia myydä? Vesko auttaa sinua löytämään ensimmäiset omaksujasi ja kasvamaan sieltä.",
+      "benefits": {
+        "startJourney": {
+          "title": "Aloita Matkasi",
+          "description": "Muuta ideasi kukoistavaksi liiketoiminnaksi"
+        },
+        "findCustomers": {
+          "title": "Löydä Ensimmäiset Asiakkaasi",
+          "description": "Yhdisty varhaisiin omaksujiin, jotka uskovat visioosi"
+        },
+        "growTogether": {
+          "title": "Kasva Yhdessä",
+          "description": "Rakenna yhteisö, joka tukee menestystäsi"
+        }
+      }
+    },
+    "features": {
+      "title": "Suurilla Mielillä on Suuria Ideoita, Vesko Auttaa Tuomaan Ne Eloon.",
+      "subtitle": "Muutamasta tuotteesta kukoistavaan brändiin — Veskon Online-kauppa on tehty skaalautumaan kanssasi.",
+      "items": {
+        "mobileApp": {
+          "title": "Mobiilisovellus",
+          "description": "Vesko on saatavilla sekä iOS:llä että Androidilla hallitaksesi kauppaasi, seurataksesi tilauksia ja ollaaksesi vuorovaikutuksessa asiakkaiden kanssa liikkeellä.",
+          "highlights": [
+            "iOS ja Android yhteensopiva",
+            "Reaaliaikaiset tilausilmoitukset",
+            "Offline-tilan tuki",
+            "Push-ilmoitukset päivityksistä"
+          ]
+        },
+        "logisticsReady": {
+          "title": "Logistiikka Valmis",
+          "description": "Toimitus tehty helpoksi. Paina vain \"Lähetä Toimitukseen\" ja me ja kuljettaja hoidamme kaiken.",
+          "highlights": [
+            "Yhden klikkauksen toimitusasetus",
+            "Useita kuljettajaintegraatioita",
+            "Reaaliaikaiset seurantapäivitykset",
+            "Automaattiset toimitusetiketit"
+          ]
+        },
+        "paymentsBuiltIn": {
+          "title": "Maksut Sisäänrakennettu",
+          "description": "Turvallinen transaktio ilman ylimääräisiä asetuksia. Veskon luotettu kumppani hoitaa kaiken kassasta maksuun.",
+          "highlights": [
+            "Useita maksutapoja",
+            "Turvallinen PCI-yhteensopivuus",
+            "Välitön maksujen käsittely",
+            "Automaattiset maksut"
+          ]
+        },
+        "socialisedSelling": {
+          "title": "Sosialisoitu Myynti",
+          "description": "Kauppasi ja sosiaalisen median profiilisi ovat samassa tilassa, tehdä kauppasi sosiaaliseksi, ostettavaksi ja eläväksi.",
+          "highlights": [
+            "Sosiaalisen median integraatio",
+            "Live-tuoteesittelyt",
+            "Asiakkaiden vuorovaikutustyökalut",
+            "Viraalinen jakamisen ominaisuudet"
+          ]
+        },
+        "allInOneDashboard": {
+          "title": "Kaikki Yhdessä Ohjauspaneelissa",
+          "description": "Hallitse kaikkea, tilauksia, varastoa, asiakkaita ja oivalluksia, kaikki yhdestä yksinkertaisesta ja tehokkaasta ohjauspaneelista.",
+          "highlights": [
+            "Yhdistetty liiketoiminnan yleiskatsaus",
+            "Edistyneet analytiikka ja oivallukset",
+            "Asiakassuhteiden hallinta",
+            "Varaston optimointityökalut"
+          ]
+        }
+      },
+      "cta": {
+        "title": "Valmis aloittamaan?",
+        "description": "Liity tuhansien yritysten joukkoon, jotka jo käyttävät Veskon Online-kauppaa kasvattaakseen myyntiään ja saavuttaakseen enemmän asiakkaita.",
+        "trustIndicators": {
+          "freeTrial": "Ilmainen kokeilu saatavilla",
+          "noSetupFees": "Ei asennusmaksuja",
+          "support": "24/7 tuki"
+        }
+      }
+    },
+    "orderSection": {
+      "title": "Miten Online-tilauksen Täyttö Toimii",
+      "steps": {
+        "receiveOrder": {
+          "title": "Vastaanota Tilaus",
+          "description": "Saa välittömät ilmoitukset, kun asiakkaat tekevät tilauksia kauppasi kautta, kaikilla yksityiskohdilla ja asiakastiedoilla."
+        },
+        "preparePackage": {
+          "title": "Valmistele Paketti",
+          "description": "Pakkaa tilaus huolellisesti, tulosta toimitusetiketit automaattisesti ja valmistaudu noutoon tai toimittamiseen."
+        },
+        "sendForDelivery": {
+          "title": "Lähetä Toimitukseen",
+          "description": "Anna pakettisi luotetuille toimituskumppaneillemme ja seuraa koko matkaa reaaliajassa."
+        }
+      },
+      "trustIndicators": {
+        "automatedLabels": "Automaattiset toimitusetiketit",
+        "realTimeTracking": "Reaaliaikainen seuranta",
+        "trustedPartners": "Luotetut toimituskumppanit"
+      },
+      "bottomMessage": {
+        "title": "Kyllä, sekin on niin helppoa! \"Suunniteltu Sinulle\" ei ole vain sanaa! 😎",
+        "subtitle": "Virtaviivainen prosessi, joka säästää aikaasi ja vaivaasi"
+      }
+    },
+    "cta": {
+      "title": "Valmis Muuttamaan Ideasi Todellisuudeksi?",
+      "subtitle": "Liity tuhansien yrittäjien joukkoon, jotka jo rakentavat unelmiaan Veskolla. Aloita matkasi tänään ja näe yrityksesi kasvavan.",
+      "buttons": {
+        "startStore": "Aloita Kauppasi",
+        "learnMore": "Lue Lisää"
+      },
+      "trustIndicators": {
+        "freeToStart": "Ilmainen aloittaa",
+        "noSetupFees": "Ei asennusmaksuja",
+        "support": "24/7 tuki"
+      },
+      "socialProof": "Liity 10 000+ yrittäjän joukkoon, jotka jo käyttävät Veskoa"
+    },
+    "howItWorks": {
+      "title": "Miten Se Toimii",
+      "steps": {
+        "createStore": {
+          "title": "Luo Kauppasi",
+          "description": "Valitse sopiva tilaussuunnitelma (tulossa pian), rekisteröidy ja luo profiilisi ja kauppasi."
+        },
+        "addProducts": {
+          "title": "Lisää Tuotteesi",
+          "description": "Lisää varastosi kauppaasi Veskossa, käytä tai muokkaa sisäänrakennettua tuotekategorisointia."
+        },
+        "startSelling": {
+          "title": "Aloita Myynti",
+          "description": "Kun painat listaa, tuotteet ovat saatavilla kaupassasi asiakkailesi, seuraajasi näkevät uuden tuotteesi kotisivullaan."
+        }
+      },
+      "bottomMessage": {
+        "title": "Kyllä, se on niin helppoa! 😎",
+        "subtitle": "Aloita minuuteissa, ei päivissä"
       }
     }
   }
