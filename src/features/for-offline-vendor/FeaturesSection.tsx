@@ -276,7 +276,7 @@ const FeaturesSection = () => {
                       alt={t(feature.titleKey)}
                       className={`w-full ${
                         feature.isMobileMockup
-                          ? "h-[500px] object-contain p-4"
+                          ? "h-[400px] object-cover !object-top"
                           : "h-[400px] object-cover"
                       }`}
                     />

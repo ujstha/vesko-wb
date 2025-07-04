@@ -4,7 +4,7 @@ export const ROUTE_PATHS = {
   merchants: { en: "for-merchants", fi: "kauppiaille" },
   people: { en: "for-people", fi: "ihmisille" },
   contact: { en: "contact", fi: "yhteystiedot" },
-  register: { en: "register", fi: "rekisteröidy" },
+  register: { en: "register", fi: "rekisteroidy" },
   offlineVendors: { en: "offline-vendors", fi: "offline-kauppiaat" },
   onlineVendors: { en: "online-vendors", fi: "online-kauppiaat" },
 } as const;

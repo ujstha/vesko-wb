@@ -523,6 +523,72 @@
       }
     }
   },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+      "description": "Whether you have a question about our platform, need help with your account, or want to explore partnership opportunities, we're here to help.",
+      "contactIndicators": {
+        "support": "24/7 Support",
+        "response": "Quick Response",
+        "secure": "Secure & Private"
+      },
+      "scrollIndicator": "Get in touch"
+    },
+    "formSection": {
+      "title": "Send us a message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours.",
+      "infoTitle": "Other ways to reach us",
+      "infoDescription": "We're here to help and answer any questions you might have. We look forward to hearing from you."
+    },
+    "contactInfo": {
+      "email": {
+        "label": "Email",
+        "address": "hello@vesko.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "number": "+358 40 123 4567"
+      },
+      "location": {
+        "label": "Location",
+        "address": "Helsinki, Finland"
+      }
+    },
+    "trustIndicators": {
+      "title": "Why choose us:",
+      "support": "24/7 Support",
+      "response": "Quick Response",
+      "secure": "Secure & Private",
+      "expert": "Expert Team"
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours.",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number (optional)",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send Message",
+      "note": "We typically respond within 24 hours"
+    },
+    "info": {
+      "title": "Other ways to reach us",
+      "email": {
+        "title": "Email us",
+        "description": "For general inquiries and support",
+        "address": "hello@vesko.com"
+      },
+      "responseTime": {
+        "title": "Response time",
+        "description": "We typically respond within 24 hours"
+      }
+    }
+  },
   "forOnlineVendor": {
     "hero": {
       "title": "Designed For You",
@@ -698,6 +764,115 @@
         "title": "Yes it's that easy! 😎",
         "subtitle": "Get started in minutes, not days"
       }
+    }
+  },
+  "register": {
+    "hero": {
+      "title": "Join Vesko",
+      "subtitle": "Transform your business with the future of commerce",
+      "description": "Register your business to get early access to Vesko's revolutionary platform. Connect with customers, streamline operations, and grow your business like never before.",
+      "benefits": {
+        "earlyAccess": "Early Access",
+        "freeTrial": "Free Trial",
+        "prioritySupport": "Priority Support"
+      },
+      "scrollIndicator": "Start your journey"
+    },
+    "formSection": {
+      "title": "Business Registration",
+      "subtitle": "Tell us about your business and we'll help you get started with Vesko's platform."
+    },
+    "form": {
+      "businessName": "Business Name",
+      "businessNamePlaceholder": "Enter your business name",
+      "businessId": "Business ID (Y-tunnus)",
+      "businessIdPlaceholder": "1234567-8",
+      "contactPerson": "Contact Person",
+      "contactPersonPlaceholder": "Full name of primary contact",
+      "email": "Email Address",
+      "emailPlaceholder": "contact@yourbusiness.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+358 40 123 4567",
+      "businessType": "Business Type",
+      "businessTypePlaceholder": "Select your business type",
+      "businessTypes": {
+        "offline": "Offline Store",
+        "online": "Online Store",
+        "both": "Both Online & Offline"
+      },
+      "industry": "Industry",
+      "industryPlaceholder": "Select your industry",
+      "industries": {
+        "fashion": "Fashion & Apparel",
+        "electronics": "Electronics & Technology",
+        "food": "Food & Beverage",
+        "home": "Home & Garden",
+        "beauty": "Beauty & Personal Care",
+        "sports": "Sports & Outdoor",
+        "other": "Other"
+      },
+      "website": "Website (Optional)",
+      "websitePlaceholder": "https://yourbusiness.com",
+      "expectedLaunch": "Expected Launch",
+      "expectedLaunchPlaceholder": "When do you plan to launch?",
+      "launchTiming": {
+        "immediately": "Immediately",
+        "1month": "Within 1 month",
+        "3months": "Within 3 months",
+        "6months": "Within 6 months",
+        "1year": "Within 1 year"
+      },
+      "description": "Business Description",
+      "descriptionPlaceholder": "Tell us about your business, products, and how you plan to use Vesko...",
+      "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+      "agreeToMarketing": "I agree to receive marketing communications from Vesko",
+      "submit": "Register Business",
+      "submitting": "Registering...",
+      "note": "All fields marked with * are required. We'll contact you within 24 hours to discuss next steps.",
+      "validation": {
+        "businessName": {
+          "required": "Business name is required",
+          "minLength": "Business name must be at least 2 characters"
+        },
+        "businessId": {
+          "required": "Business ID is required",
+          "format": "Please enter a valid Finnish business ID (format: 1234567-8)"
+        },
+        "contactPerson": {
+          "required": "Contact person name is required"
+        },
+        "email": {
+          "required": "Email address is required",
+          "format": "Please enter a valid email address"
+        },
+        "phone": {
+          "required": "Phone number is required",
+          "format": "Please enter a valid Finnish phone number"
+        },
+        "businessType": {
+          "required": "Please select a business type"
+        },
+        "industry": {
+          "required": "Please select an industry"
+        },
+        "description": {
+          "required": "Business description is required",
+          "minLength": "Description must be at least 20 characters"
+        },
+        "expectedLaunch": {
+          "required": "Please select expected launch timing"
+        },
+        "agreeToTerms": {
+          "required": "You must agree to the terms and conditions"
+        },
+        "submit": {
+          "error": "Registration failed. Please try again or contact support."
+        }
+      }
+    },
+    "success": {
+      "title": "Registration Successful!",
+      "message": "Thank you for registering with Vesko! We've received your application and will contact you within 24 hours to discuss next steps and set up your account."
     }
   }
 }

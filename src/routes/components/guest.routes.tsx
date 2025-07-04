@@ -12,6 +12,7 @@ const ForPeoplePage = lazy(() => import("@/pages/ForPeoplePage"));
 const ForOfflineVendorPage = lazy(() => import("@/pages/ForOfflineVendorPage"));
 const ForOnlineVendorPage = lazy(() => import("@/pages/ForOnlineVendorPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
+const RegisterPage = lazy(() => import("@/pages/RegisterPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
 export const GuestRoutes = (): RouteObject[] => {
@@ -43,6 +44,10 @@ export const GuestRoutes = (): RouteObject[] => {
           {
             path: ROUTE_PATHS.people[lang],
             element: <ForPeoplePage />,
+          },
+          {
+            path: ROUTE_PATHS.register[lang],
+            element: <RegisterPage />,
           },
           {
             path: "*",

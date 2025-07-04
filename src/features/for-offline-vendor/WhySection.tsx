@@ -144,12 +144,9 @@ const WhySection = () => {
           </motion.div>
 
           {/* Stats */}
-          <motion.div
-            variants={textVariants}
-            className='mt-12 grid grid-cols-1 gap-6 text-center md:grid-cols-3'
-          >
+          <motion.div variants={textVariants} className='mt-12 grid grid-cols-3 gap-6 text-center'>
             <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-blue-600 md:text-6xl'>
+              <Text className='text-5xl font-bold text-blue-600 lg:text-6xl'>
                 {t("forOfflineVendor.why.stats.onlinePurchases.percentage")}
               </Text>
               <Text className='text-gray-600'>
@@ -157,7 +154,7 @@ const WhySection = () => {
               </Text>
             </div>
             <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-purple-600 md:text-6xl'>
+              <Text className='text-5xl font-bold text-purple-600 lg:text-6xl'>
                 {t("forOfflineVendor.why.stats.storeVisits.multiplier")}
               </Text>
               <Text className='text-gray-600'>
@@ -165,7 +162,7 @@ const WhySection = () => {
               </Text>
             </div>
             <div className='rounded-lg bg-white/50 p-6 backdrop-blur-sm'>
-              <Text className='text-5xl font-bold text-green-600 md:text-6xl'>
+              <Text className='text-5xl font-bold text-green-600 lg:text-6xl'>
                 {t("forOfflineVendor.why.stats.conversionRate.percentage")}
               </Text>
               <Text className='text-gray-600'>

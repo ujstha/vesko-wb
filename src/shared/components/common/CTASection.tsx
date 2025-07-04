@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
+import type { SupportedLanguages } from "@/locales/i18n.config";
+import { getLocalizedPath } from "@/routes/helpers/localization";
 import { WaitlistForm } from "@/shared/components/common/WaitlistForm";
 import { Button } from "@/shared/components/ui/button";
 import { Container } from "@/shared/components/ui/container";
@@ -9,7 +12,12 @@ import { Text } from "@/shared/components/ui/text";
 import { RemixIcons } from "@/shared/constants/icons";
 
 const CTASection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const navigate = useNavigate();
+
+  const navigateToRegister = () =>
+    navigate(getLocalizedPath("register", i18n.language as SupportedLanguages));
 
   const ctaCardVariants = {
     hidden: {
@@ -68,6 +76,7 @@ const CTASection = () => {
                 aria-label={t("home.cta.merchant.buttonText")}
                 containerClassName='bg-accent-500 hover:bg-accent-600 rounded-lg px-8 py-3'
                 textClassName='text-white'
+                onClick={() => void navigateToRegister()}
               >
                 {t("home.cta.merchant.buttonText")}
               </Button>

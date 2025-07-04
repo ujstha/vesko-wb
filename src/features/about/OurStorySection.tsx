@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
+import { StackScrollCards } from "@/shared/components/ui/animated/StackScrollCards";
 import { Container } from "@/shared/components/ui/container";
 import { Section } from "@/shared/components/ui/section";
 import { Text } from "@/shared/components/ui/text";
-import { StackScrollCards } from "@/shared/components/ui/animated/StackScrollCards";
 
 const OurStorySection = () => {
   const { t } = useTranslation();
@@ -112,7 +112,7 @@ const OurStorySection = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className='from-accent-600 to-accent-700 mx-auto mb-16 max-w-5xl rounded-3xl bg-gradient-to-r p-8 md:p-12'
+          className='via-accent-800 from-accent-600 to-accent-600 mx-auto mb-16 max-w-5xl rounded-3xl bg-gradient-to-br p-8 md:p-12'
         >
           <div className='text-center'>
             <Text variant='title' className='mb-4 text-2xl font-bold text-white md:text-3xl'>

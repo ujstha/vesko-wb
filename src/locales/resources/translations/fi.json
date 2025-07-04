@@ -523,6 +523,72 @@
       }
     }
   },
+  "contact": {
+    "hero": {
+      "title": "Ota yhteyttä",
+      "subtitle": "Onko sinulla kysymyksiä? Haluaisimme kuulla sinusta. Lähetä meille viesti ja vastaamme mahdollisimman pian.",
+      "description": "Oli kyseessä sitten kysymys alustastamme, tarvitsetko apua tililläsi tai haluatko tutkia yhteistyömahdollisuuksia, olemme täällä auttamassa.",
+      "contactIndicators": {
+        "support": "24/7 Tuki",
+        "response": "Nopea Vastaus",
+        "secure": "Turvallinen & Yksityinen"
+      },
+      "scrollIndicator": "Ota yhteyttä"
+    },
+    "formSection": {
+      "title": "Lähetä meille viesti",
+      "subtitle": "Täytä alla oleva lomake ja vastaamme sinulle 24 tunnin sisällä.",
+      "infoTitle": "Muita tapoja ottaa yhteyttä",
+      "infoDescription": "Olemme täällä auttamassa ja vastaamassa kaikkiin kysymyksiin, joita sinulla saattaa olla. Odotamme innolla kuulevamme sinusta."
+    },
+    "contactInfo": {
+      "email": {
+        "label": "Sähköposti",
+        "address": "hello@vesko.com"
+      },
+      "phone": {
+        "label": "Puhelin",
+        "number": "+358 40 123 4567"
+      },
+      "location": {
+        "label": "Sijainti",
+        "address": "Helsinki, Suomi"
+      }
+    },
+    "trustIndicators": {
+      "title": "Miksi valita meidät:",
+      "support": "24/7 Tuki",
+      "response": "Nopea Vastaus",
+      "secure": "Turvallinen & Yksityinen",
+      "expert": "Asiantunteva Tiimi"
+    },
+    "form": {
+      "title": "Lähetä meille viesti",
+      "subtitle": "Täytä alla oleva lomake ja vastaamme sinulle 24 tunnin sisällä.",
+      "fullName": "Koko nimi",
+      "fullNamePlaceholder": "Syötä koko nimesi",
+      "email": "Sähköpostiosoite",
+      "emailPlaceholder": "Syötä sähköpostiosoitteesi",
+      "phone": "Puhelinnumero",
+      "phonePlaceholder": "Syötä puhelinnumerosi (valinnainen)",
+      "message": "Viesti",
+      "messagePlaceholder": "Kerro miten voimme auttaa sinua...",
+      "submit": "Lähetä viesti",
+      "note": "Vastaamme yleensä 24 tunnin sisällä"
+    },
+    "info": {
+      "title": "Muita tapoja ottaa yhteyttä",
+      "email": {
+        "title": "Lähetä sähköpostia",
+        "description": "Yleisiin kyselyihin ja tukeen",
+        "address": "hello@vesko.com"
+      },
+      "responseTime": {
+        "title": "Vastausaika",
+        "description": "Vastaamme yleensä 24 tunnin sisällä"
+      }
+    }
+  },
   "forOnlineVendor": {
     "hero": {
       "title": "Suunniteltu Sinulle",
@@ -698,6 +764,115 @@
         "title": "Kyllä, se on niin helppoa! 😎",
         "subtitle": "Aloita minuuteissa, ei päivissä"
       }
+    }
+  },
+  "register": {
+    "hero": {
+      "title": "Liity Veskoon",
+      "subtitle": "Muunna liiketoimintasi kaupan tulevaisuudella",
+      "description": "Rekisteröi yrityksesi saadaksesi varhaisen pääsyn Veskon vallankumoukselliseen alustaan. Yhdistä asiakkaisiin, virtaviivaista toimintaa ja kasvata liiketoimintaasi kuten ennen.",
+      "benefits": {
+        "earlyAccess": "Varhainen pääsy",
+        "freeTrial": "Ilmainen kokeilu",
+        "prioritySupport": "Prioriteettituki"
+      },
+      "scrollIndicator": "Aloita matkasi"
+    },
+    "formSection": {
+      "title": "Yrityksen rekisteröinti",
+      "subtitle": "Kerro yrityksestäsi ja autamme sinua aloittamaan Veskon alustalla."
+    },
+    "form": {
+      "businessName": "Yrityksen nimi",
+      "businessNamePlaceholder": "Syötä yrityksesi nimi",
+      "businessId": "Y-tunnus",
+      "businessIdPlaceholder": "1234567-8",
+      "contactPerson": "Yhteyshenkilö",
+      "contactPersonPlaceholder": "Pääyhteyshenkilön koko nimi",
+      "email": "Sähköpostiosoite",
+      "emailPlaceholder": "yhteys@yrityksesi.fi",
+      "phone": "Puhelinnumero",
+      "phonePlaceholder": "+358 40 123 4567",
+      "businessType": "Liiketoiminnan tyyppi",
+      "businessTypePlaceholder": "Valitse liiketoiminnan tyyppi",
+      "businessTypes": {
+        "offline": "Lähikauppa",
+        "online": "Verkkokauppa",
+        "both": "Sekä verkko- että lähikauppa"
+      },
+      "industry": "Toimiala",
+      "industryPlaceholder": "Valitse toimiala",
+      "industries": {
+        "fashion": "Muoti ja vaatteet",
+        "electronics": "Elektroniikka ja teknologia",
+        "food": "Ruoka ja juomat",
+        "home": "Koti ja puutarha",
+        "beauty": "Kauneus ja henkilökohtainen hygienia",
+        "sports": "Urheilu ja ulkoilu",
+        "other": "Muu"
+      },
+      "website": "Verkkosivusto (valinnainen)",
+      "websitePlaceholder": "https://yrityksesi.fi",
+      "expectedLaunch": "Odotettu käynnistys",
+      "expectedLaunchPlaceholder": "Milloin suunnittelet käynnistyvän?",
+      "launchTiming": {
+        "immediately": "Välittömästi",
+        "1month": "1 kuukauden sisällä",
+        "3months": "3 kuukauden sisällä",
+        "6months": "6 kuukauden sisällä",
+        "1year": "1 vuoden sisällä"
+      },
+      "description": "Yrityksen kuvaus",
+      "descriptionPlaceholder": "Kerro yrityksestäsi, tuotteista ja miten suunnittelet käyttävän Veskoa...",
+      "agreeToTerms": "Hyväksyn käyttöehdot ja tietosuojaselosteen",
+      "agreeToMarketing": "Suostun vastaanottamaan markkinointiviestintää Veskolta",
+      "submit": "Rekisteröi yritys",
+      "submitting": "Rekisteröidään...",
+      "note": "Kaikki *-merkillä merkitty kentät ovat pakollisia. Otamme yhteyttä 24 tunnin sisällä keskustellaksemme seuraavista vaiheista.",
+      "validation": {
+        "businessName": {
+          "required": "Yrityksen nimi on pakollinen",
+          "minLength": "Yrityksen nimen tulee olla vähintään 2 merkkiä"
+        },
+        "businessId": {
+          "required": "Y-tunnus on pakollinen",
+          "format": "Syötä kelvollinen suomalainen Y-tunnus (muoto: 1234567-8)"
+        },
+        "contactPerson": {
+          "required": "Yhteyshenkilön nimi on pakollinen"
+        },
+        "email": {
+          "required": "Sähköpostiosoite on pakollinen",
+          "format": "Syötä kelvollinen sähköpostiosoite"
+        },
+        "phone": {
+          "required": "Puhelinnumero on pakollinen",
+          "format": "Syötä kelvollinen suomalainen puhelinnumero"
+        },
+        "businessType": {
+          "required": "Valitse liiketoiminnan tyyppi"
+        },
+        "industry": {
+          "required": "Valitse toimiala"
+        },
+        "description": {
+          "required": "Yrityksen kuvaus on pakollinen",
+          "minLength": "Kuvauksen tulee olla vähintään 20 merkkiä"
+        },
+        "expectedLaunch": {
+          "required": "Valitse odotettu käynnistysaika"
+        },
+        "agreeToTerms": {
+          "required": "Sinun tulee hyväksyä käyttöehdot"
+        },
+        "submit": {
+          "error": "Rekisteröinti epäonnistui. Yritä uudelleen tai ota yhteyttä tukeen."
+        }
+      }
+    },
+    "success": {
+      "title": "Rekisteröinti onnistui!",
+      "message": "Kiitos rekisteröitymisestä Veskoon! Olemme vastaanottaneet hakemuksesi ja otamme yhteyttä 24 tunnin sisällä keskustellaksemme seuraavista vaiheista ja tilin perustamisesta."
     }
   }
 }

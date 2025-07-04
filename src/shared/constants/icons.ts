@@ -9,6 +9,8 @@ export const RemixIcons = {
   securePayment: "ri-secure-payment-line",
   truck: "ri-truck-line",
   email: "ri-mail-line",
+  phone: "ri-phone-line",
+  location: "ri-map-pin-line",
   userCommunity: "ri-user-community-line",
   check: "ri-check-line",
   play: "ri-play-line",

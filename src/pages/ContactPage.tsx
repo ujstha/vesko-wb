@@ -1,8 +1,11 @@
+import { ContactFormSection } from "@/features/contact/ContactFormSection";
+import { HeroSection } from "@/features/contact/HeroSection";
+
 const ContactPage = () => {
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <p>If you have any questions, feel free to reach out!</p>
+    <div className='relative -top-18'>
+      <HeroSection />
+      <ContactFormSection />
     </div>
   );
 };
